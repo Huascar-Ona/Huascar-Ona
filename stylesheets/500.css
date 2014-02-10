@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+
+.error-screen-container{ background:url(../images/500-bg.png) no-repeat; height:880px;  margin: 0 auto; width: 1000px;}
+.logo{ margin: auto; padding: 30px 20px 20px; width: 220px;}
+.logo a{ background:url(../images/404-logo.png) no-repeat; width:220px; height:114px;  display:block; margin-top:30px; }
+.error-message{ text-align:center;}
+.error-message h1{ color:#3c7599; font-size:34px; font-weight:bold;  font-family: 'MyriadProSemiBold',Arial !important; margin-top:15px;}

@@ -1,0 +1,117 @@
+#facebox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	text-align: left;
+	padding:5px;
+	background:url(facebox_box_ovarlay.png);
+}
+#facebox, #facebox .popup  {
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;}
+
+#facebox .popup {
+	border:1px solid #48a1cf;
+	background-color:#f6f7fa;
+	-webkit-box-shadow:0 0 18px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow:0 0 18px rgba(0, 0, 0, 0.4);
+	box-shadow:0 0 18px rgba(0, 0, 0, 0.4);
+	background:#f6f8fa!important;
+	/*min-width:250px;
+	overflow-x:hidden;
+	overflow-y:auto;*/
+	position:relative;
+}
+
+#facebox .content {
+	display:table;
+/*	min-width: 200px;
+  padding: 20px;*/
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	/*border: 1px solid #b1b1b1;*/
+	width:100%;
+/*	min-height:250px;*/
+}
+#facebox .content .title{ color:#3c7599; background:url(../images/facebox_title_bg.png) left bottom repeat-x; padding:20px; font-size:14px; }
+#facebox .content .title_stats{ color:#3c7599; background:url(../images/facebox_title_bg.png) left bottom repeat-x; padding:10px 20px 10px 20px; font-size:14px; }
+#facebox .content .title h3{color:#3c7599; }
+#facebox .content .facebox_content{ min-height: 100px; padding: 20px; min-width:250px; }
+
+#facebox .content > p:first-child {
+	margin-top:0;
+}
+#facebox .content > p:last-child {
+	margin-bottom:0;
+}
+#facebox .close {
+	position:absolute;
+	top: -12px;
+	right: -13px;
+	padding:2px;
+}
+#facebox .close img {
+	/*opacity:0.3;*/
+}
+#facebox .close:hover img {
+	opacity:1.0;
+}
+#facebox .loading {
+	text-align: center;  width:300px; padding: 40px;
+	/* min-height: 200px; margin-top: 50%;*/
+    
+}
+#facebox .image {
+	text-align: center;
+}
+#facebox img {
+	border: 0;
+	margin: 0;
+}
+#facebox_overlay {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+}
+
+.facebox_overlay_tooltip {
+    background:transparent url(../images/overlay-tooltip.png) repeat top left;
+	
+}
+.facebox_hide {
+	z-index:-100;
+}
+
+/*.facebox_overlayBG {
+	background-color: #000;
+	z-index: 995;
+}*/
+
+.facebox_overlayBG {
+  z-index: 99;
+	background-color:#000;
+	opacity:0.20!important;
+	filter:alpha(opacity=0.20)!important; /*IE7*/
+ -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)"!important; /*IE8*/
+  
+}
+.facebox_overlayBG_club{ z-index: 99;
+	background-color:#000;
+	opacity:0.1!important;
+	filter:alpha(opacity=0.20)!important; /*IE7*/
+ -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)"!important; /*IE8*/}
+ 
+#facebox_overlay_club {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+	display:none
+}
+#wait  {position:absolute; top:25%; left:45%; z-index:999; position:fixed; display:none;}

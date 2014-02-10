@@ -1,0 +1,441 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>GolfRival - Changing the Way Golfers Connect and Compete</title>
+<link href="../stylesheets/style.css" rel="stylesheet" type="text/css" />
+<link href="../stylesheets/golf2compete.css" rel="stylesheet" type="text/css" />
+<link href="../stylesheets/home.css" rel="stylesheet" type="text/css" />
+<link href="../stylesheets/searchClub.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico" />
+<!--[if IE 9]><link rel="stylesheet" type="text/css" href="/stylesheets/ie9.css" /><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" type="text/css" href="/stylesheets/ie8.css" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="/stylesheets/ie7.css" /><![endif]-->
+
+<!--Tabs files required-->
+<script src="../javascripts/jquery.min.js" type="text/javascript" ></script>
+<script type="text/javascript" src="../javascripts/jquery.pajinate.js"></script>
+<script src="../javascripts/jquery-1.7.1.min.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery.simpletip-1.3.1.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery-ui.min.js"></script>
+<script src="../javascripts/jquery.uniform.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery.watermark.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery.flexslider-min.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery.flexslider.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery.tipsy.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery.mCustomScrollbar.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery.livequery.min.js" type="text/javascript" ></script>
+<script src="../facebox/facebox.js" type="text/javascript" ></script>
+<script src="../facebox/facebox_ext.js" type="text/javascript" ></script>
+<script src="../javascripts/tooltip.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery-tabs.js" type="text/javascript" ></script>
+<script src="../javascripts/application.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery.capSlide.js" type="text/javascript" ></script>
+<script type="text/javascript" src="../javascripts/animatedcollapse.js"></script>
+<script src="../javascripts/jquery.simpletip-1.3.1.js" type="text/javascript" ></script>
+<script src="../javascripts/eventSummary.js" type="text/javascript" ></script>
+<script src="../javascripts/tournament.js" type="text/javascript" ></script>
+<script src="../javascripts/user_profile.js" type="text/javascript" ></script>
+<script src="../javascripts/expand.js" type="text/javascript" ></script>
+<script type="text/javascript" src="../javascripts/jquery.pajination.js"></script>
+<script type="text/javascript" src="../javascripts/pagination.js"></script>
+
+</head>
+<body class="splashpage">
+<div class="container">
+<div class="topbar">
+    <a href="GR_Splash_Screen.html"><div class="logo"></div></a>
+    <div class="topLinks">
+      <ul>
+        <li><a href="login.html" class="button login_btn" title="Login">Login »</a></li>
+        <!--<li><a href="#" class="button blue_btn" title="Get the app">Get the app »</a><br>
+ <p>Available for <a href="#">iPhone</a></p>
+        </li>-->
+      </ul>
+  </div>
+<!--container_holder end -->
+</div>
+<!--topbar end -->
+<div class="page-container">
+  <div class="page-canvas grid1000">
+      <div class="golf_listings bgwhite">	
+          <div class="rightRow ml30">
+          
+                <h1 class="font-22 font-bold mt30 dark-blue">Golf Course Listing</h1>
+                <h4 class="dark-blue">up-to-date golf courses</h4>
+         
+          </div><!--rightRow End-->
+      </div><!--golf_listings-->
+      
+      <div class="bgskyblue p5 golf_list_search hgt-35">
+      		<ul>
+            <li class="pl15"><h4 class="grid50 fl mt10 dark-blue">State:</h4></li>
+             <li class="slc-200-listing mt5">
+              <select class="state_list dark-blue">
+                <option>All</option>
+            	<option>Alabama</option>
+                <option>Alaska</option>
+                <option>Arizona</option>
+                <option>Arkansas</option>
+                <option>California</option>
+                <option>Colorado</option>
+                <option>Connecticut</option>
+                <option>Delaware</option>
+                <option>Florida</option>
+                <option>Georgia</option>
+                <option>Hawaii</option>
+                <option>Idaho</option>
+                <option>Illinois</option>
+                <option>Indiana</option>
+                <option>Iowa</option>
+                <option>Kansas</option>
+                <option>Kentucky</option>
+                <option>Louisiana</option>
+                <option>Maine</option>
+                <option>Maryland</option>
+                <option>Massachusetts</option>
+                <option>Michigan</option>
+                <option>Minnesota</option>
+                <option>Mississippi</option>
+                <option>Missouri</option>
+                <option>Montana</option>
+                <option>Nebraska</option>
+                <option>Nevada</option>
+                <option>New Hampshire</option>
+                <option>New Jersey</option>
+                <option>New Mexico</option>
+                <option>New York</option>
+                <option>North Carolina</option>
+                <option>North Dakota</option>
+                <option>Ohio</option>
+                <option>Oklahoma</option>
+                <option>Oregon</option>
+                <option>Pennsylvania</option>
+                <option>Rhode Island</option>
+                <option>South Carolina</option>
+                <option>South Dakota</option>
+                <option>Tennessee</option>
+                <option>Texas</option>
+                <option>Utah</option>
+                <option>Vermont</option>
+                <option>Virginia</option>
+                <option>Washington</option>
+                <option>West Virginia</option>
+                <option>Wisconsin</option>
+                <option>Wyoming</option>
+            </select>
+         
+           </li>
+           <li class="pl45"><h4 class="grid50 mt10 dark-blue">Search:</h4></li>
+           <li><input type="text" autocomplete="off" name="Enter Course Name to filter search" class="grid220 hgt-12 mt5 ml25 placeHolder watermark_text border-radius-none"></li>
+          </ul>
+        </div>
+      
+      <div class="golf-listing-content m20 mainExpand_wrapper clearfix pb34">
+          <div class=" hgt-20">
+            <h4 class="fl dark-blue">Viewing 10 out of 50 Golf course(s) in All:</h4>
+            <h4 class="fr red">Golf course not listed here? 
+            <a href="login.html" class=" font-semibold dark-blue underline">Send Request »</a></h4>
+          </div>
+      
+     
+     <div class="paging_container">
+				
+    
+   <a id="top"></a>  
+            <div class="content_global mt15">
+                       
+              <ul class="global_leaderboard mt15">
+                  <li class="course-name">Atlantic City Country Club - Atlantic City Course</li>
+                  <li class="course-location"> Northfield, NJ, US</li>
+              </ul>
+              
+               <ul class="global_leaderboard">
+                   <li class="course-name">Augusta Pines Golf Club - Augusta Pines Course</li>
+                   <li class="course-location"> Spring, TX, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                   <li class="course-name">Cypress Point Club - Cypress Point Course </li>
+                   <li class="course-location">Pebble Beach, CA, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                   <li class="course-name">FarmLinks Golf Club - FarmLinks Course</li>
+                   <li class="course-location">Sylacauga, AL, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                    <li class="course-name">Indiana University Golf Course - Championship Course</li>
+                    <li class="course-location">Bloomington, IN, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                    <li class="course-name">Mill Cove Golf Club - Mill Cove Course</li>
+                    <li class="course-location">Jacksonville, FL, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                   <li class="course-name">Missouri Bluffs Golf Club - Missouri Bluffs Course</li>
+                   <li class="course-location">Saint Charles, MO, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                   <li class="course-name">Oak Hill Country Club - East Course</li>
+                   <li class="course-location"> Rochester, NY, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                    <li class="course-name">Robert Trent Jones Golf Club - Robert Trent Jones Course</li>
+                    <li class="course-location">Gainesville, VA, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                    <li class="course-name">Whistling Straits - Straits Course</li>
+                    <li class="course-location">Sheboygan, WI, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                  <li class="course-name">Atlantic City Country Club - Atlantic City Course</li>
+                  <li class="course-location"> Northfield, NJ, US</li>
+              </ul>
+              
+               <ul class="global_leaderboard">
+                   <li class="course-name">Augusta Pines Golf Club - Augusta Pines Course</li>
+                   <li class="course-location"> Spring, TX, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                   <li class="course-name">Cypress Point Club - Cypress Point Course </li>
+                   <li class="course-location">Pebble Beach, CA, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                   <li class="course-name">FarmLinks Golf Club - FarmLinks Course</li>
+                   <li class="course-location">Sylacauga, AL, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                    <li class="course-name">Indiana University Golf Course - Championship Course</li>
+                    <li class="course-location">Bloomington, IN, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                    <li class="course-name">Mill Cove Golf Club - Mill Cove Course</li>
+                    <li class="course-location">Jacksonville, FL, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                   <li class="course-name">Missouri Bluffs Golf Club - Missouri Bluffs Course</li>
+                   <li class="course-location">Saint Charles, MO, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                   <li class="course-name">Oak Hill Country Club - East Course</li>
+                   <li class="course-location"> Rochester, NY, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                    <li class="course-name">Robert Trent Jones Golf Club - Robert Trent Jones Course</li>
+                    <li class="course-location">Gainesville, VA, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                    <li class="course-name">Whistling Straits - Straits Course</li>
+                    <li class="course-location">Sheboygan, WI, US</li>
+               </ul>
+               
+                <ul class="global_leaderboard">
+                  <li class="course-name">Atlantic City Country Club - Atlantic City Course</li>
+                  <li class="course-location"> Northfield, NJ, US</li>
+              </ul>
+              
+               <ul class="global_leaderboard">
+                   <li class="course-name">Augusta Pines Golf Club - Augusta Pines Course</li>
+                   <li class="course-location"> Spring, TX, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                   <li class="course-name">Cypress Point Club - Cypress Point Course </li>
+                   <li class="course-location">Pebble Beach, CA, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                   <li class="course-name">FarmLinks Golf Club - FarmLinks Course</li>
+                   <li class="course-location">Sylacauga, AL, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                    <li class="course-name">Indiana University Golf Course - Championship Course</li>
+                    <li class="course-location">Bloomington, IN, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                    <li class="course-name">Mill Cove Golf Club - Mill Cove Course</li>
+                    <li class="course-location">Jacksonville, FL, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                   <li class="course-name">Missouri Bluffs Golf Club - Missouri Bluffs Course</li>
+                   <li class="course-location">Saint Charles, MO, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                   <li class="course-name">Oak Hill Country Club - East Course</li>
+                   <li class="course-location"> Rochester, NY, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                    <li class="course-name">Robert Trent Jones Golf Club - Robert Trent Jones Course</li>
+                    <li class="course-location">Gainesville, VA, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                    <li class="course-name">Whistling Straits - Straits Course</li>
+                    <li class="course-location">Sheboygan, WI, US</li>
+               </ul>
+              
+                <ul class="global_leaderboard">
+                  <li class="course-name">Atlantic City Country Club - Atlantic City Course</li>
+                  <li class="course-location"> Northfield, NJ, US</li>
+              </ul>
+              
+               <ul class="global_leaderboard">
+                   <li class="course-name">Augusta Pines Golf Club - Augusta Pines Course</li>
+                   <li class="course-location"> Spring, TX, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                   <li class="course-name">Cypress Point Club - Cypress Point Course </li>
+                   <li class="course-location">Pebble Beach, CA, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                   <li class="course-name">FarmLinks Golf Club - FarmLinks Course</li>
+                   <li class="course-location">Sylacauga, AL, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                    <li class="course-name">Indiana University Golf Course - Championship Course</li>
+                    <li class="course-location">Bloomington, IN, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                    <li class="course-name">Mill Cove Golf Club - Mill Cove Course</li>
+                    <li class="course-location">Jacksonville, FL, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                   <li class="course-name">Missouri Bluffs Golf Club - Missouri Bluffs Course</li>
+                   <li class="course-location">Saint Charles, MO, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                   <li class="course-name">Oak Hill Country Club - East Course</li>
+                   <li class="course-location"> Rochester, NY, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                    <li class="course-name">Robert Trent Jones Golf Club - Robert Trent Jones Course</li>
+                    <li class="course-location">Gainesville, VA, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                    <li class="course-name">Whistling Straits - Straits Course</li>
+                    <li class="course-location">Sheboygan, WI, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                  <li class="course-name">Atlantic City Country Club - Atlantic City Course</li>
+                  <li class="course-location"> Northfield, NJ, US</li>
+              </ul>
+              
+               <ul class="global_leaderboard">
+                   <li class="course-name">Augusta Pines Golf Club - Augusta Pines Course</li>
+                   <li class="course-location"> Spring, TX, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                   <li class="course-name">Cypress Point Club - Cypress Point Course </li>
+                   <li class="course-location">Pebble Beach, CA, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                   <li class="course-name">FarmLinks Golf Club - FarmLinks Course</li>
+                   <li class="course-location">Sylacauga, AL, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                    <li class="course-name">Indiana University Golf Course - Championship Course</li>
+                    <li class="course-location">Bloomington, IN, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                    <li class="course-name">Mill Cove Golf Club - Mill Cove Course</li>
+                    <li class="course-location">Jacksonville, FL, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                   <li class="course-name">Missouri Bluffs Golf Club - Missouri Bluffs Course</li>
+                   <li class="course-location">Saint Charles, MO, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                   <li class="course-name">Oak Hill Country Club - East Course</li>
+                   <li class="course-location"> Rochester, NY, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                    <li class="course-name">Robert Trent Jones Golf Club - Robert Trent Jones Course</li>
+                    <li class="course-location">Gainesville, VA, US</li>
+               </ul>
+               
+               <ul class="global_leaderboard">
+                    <li class="course-name">Whistling Straits - Straits Course</li>
+                    <li class="course-location">Sheboygan, WI, US</li>
+               </ul>
+           </div>	
+  		<div class="page_navigation mt20 ml400 "></div>
+	  </div>
+   </div>
+ 
+    </div>
+</div>
+<!--page canvas end -->
+<!--header_ani end -->
+<div class="facebook-login">
+<ul class="signup_btn">
+<li><a href="GR_Golf_Listings_Public.html#"><img src="../images/joingolf_logo.png" alt="Join GolfRival Now" title="Join GolfRival Now"></a></li>
+<li><a href="GR_Registration_FB_Token.html" class="button fb_btn" title="Sign up with facebook">Sign up with facebook</a><br>
+<p class="font-11">(we’ll never post to your wall without your permission)</p></li>
+<li><a href="GR_Registration_E-mail_Token.html" class="button mail_btn" title="Sign up with E-mail">Sign up with E-mail</a></li>
+</ul>
+</div>
+<!--facebook-login end -->
+</div>
+<!--container end -->
+
+<!--Footer start -->
+<div class="footer">
+<div class="center_holder">
+<div class="copyright">© 2013. GolfRival. All Rights Reserved</div>
+<div class="followus">
+  <ul>
+    <li>Follow us : </li><li>
+    <a href="https://www.facebook.com/GolfRival"><span class="facebook"></span></a>
+    <a href="https://twitter.com/GolfRival"><span class="twitter"></span></a></li>
+  </ul>
+</div>
+	<p class="bottomlinks">    
+  <!--<a href="#">Contact Us</a>   
+  <a href="#">How it Works</a> -->  
+  <a href="GR_Golf_Listings_Public.html">Golf Course Listing</a> 
+  <a href="https://golfrival.zendesk.com/home" target="_blank">Customer Support</a>     
+  <a href="GR_About.html">About</a>
+  </p>
+</div>
+</div>
+<!--Footer end -->
+
+</body>
+</html>

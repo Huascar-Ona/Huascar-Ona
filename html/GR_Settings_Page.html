@@ -1,0 +1,1837 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>GolfRival - Changing the Way Golfers Connect and Compete</title>
+<link href="../stylesheets/style.css" rel="stylesheet" type="text/css" />
+<link href="../stylesheets/golf2compete.css" rel="stylesheet" type="text/css" />
+<link href="../stylesheets/home.css" rel="stylesheet" type="text/css" />
+<link href="../facebox/facebox.css" rel="stylesheet" type="text/css" />
+<link href="../stylesheets/tipsy.css" rel="stylesheet" type="text/css" />
+<link href="../stylesheets/searchClub.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico" />
+<!--[if IE 9]><link rel="stylesheet" type="text/css" href="/stylesheets/ie9.css" /><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" type="text/css" href="/stylesheets/ie8.css" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="/stylesheets/ie7.css" /><![endif]-->
+<script src="../javascripts/jquery.min.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery-1.7.1.min.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery.simpletip-1.3.1.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery-ui.min.js"></script>
+<script src="../javascripts/jquery.uniform.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery.watermark.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery.flexslider-min.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery.flexslider.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery.tipsy.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery.mCustomScrollbar.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery.livequery.min.js" type="text/javascript" ></script>
+<script src="../facebox/facebox.js" type="text/javascript" ></script>
+<script src="../facebox/facebox_ext.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery-tabs.js" type="text/javascript" ></script>
+<script type="text/javascript" src="../javascripts/friends.js"></script>
+<script src="../javascripts/tooltip.js" type="text/javascript" ></script>
+<script src="../javascripts/setting.js" type="text/javascript" ></script>
+<script type="text/javascript" src="../javascripts/overlay.js"></script>
+<script src="../javascripts/application.js" type="text/javascript" ></script>
+
+</head>
+<body class="golf">
+<div class="topbar">
+  <div class="center_holder "> <a href="home.html">
+    <div class="logo"></div>
+    </a>
+    <div class="top-nav-link-main">
+      <ul class="fl"  >
+        <li class="small-profile-photo grid240"> <a href="User_Profile_Page.html"><img src="../images/top_profile_photo.png" alt="img" class="img fl"> <span class="fl"> Valery Sibikovsky</span></a></li>
+        <li class="golfRequests">
+      <a href="GR_Settings_Page.html#">
+      <span class="invites-icon"></span>
+      <span>Notifications</span>
+      <span class="updates-counter">11</span>
+      </a>
+      <div class="golfRequestsList">
+            <ul class="even-odd">
+              <li class="">
+                <div class="invite-accept"><a class=" button green accept">accept</a><a href="GR_Settings_Page.html#" class="later">later</a></div>
+                <div class="UIImageBlock_Image"><img alt="img" src="../images/invite-people-img1.png"></div>
+                <div class="UIImageBlock_Content">
+                  <h5><a href="GR_Settings_Page.html#">Paul Smith</a> invites you to a game in 
+                  <a href="GR_Settings_Page.html#">SF Golf Tournament</a></h5>
+                </div>
+              </li>
+            <li>
+            <div class="UIImageBlock_Image"><img alt="img" src="../images/invite-people-img3.png"></div>
+            <div class="UIImageBlock_Content grid-540">
+                <h5>
+                <a href="GR_Settings_Page.html#"> Michael Simpson</a> also commented on his 
+                <a href="notification_status.html" class="open_facebox"> status.</a> 
+             		</h5>
+            </div>
+            </li>
+              <li>
+              	<div class="invite-accept"><a class=" button green accept">accept</a><a href="GR_Settings_Page.html#" class="later">later</a></div>
+                <div class="UIImageBlock_Image"><img alt="img" src="../images/invite-people-img1.png"></div>
+                <div class="UIImageBlock_Content">
+                  <h5><a href="GR_Settings_Page.html#">Eric Roberts </a> wants to be
+                    your friend.</h5>
+                </div>
+              </li>
+            </ul>
+            <p class="all-invites clr"><a href="notification.html">See all Notifications</a></p>
+          </div>
+      </li>
+        <li> <a href="GR_Messages.html"> <span class="messages-icon"></span> <span>Messages</span> <span class="updates-counter">98</span> </a></li>
+      </ul>
+      <ul class="fr">
+        <li class=""> <a href="GR_Settings_Page.html"> <span class="setting-icon"></span> <span>Settings</span></a></li>
+        <li> <a href="GR_Splash_Screen.html"> <span class="logout-icon"></span> <span>Logout</span></a></li>
+      </ul>
+    </div>
+  </div>
+  <!--container_holder end -->
+</div>
+<!--topbar end -->
+<div class="mainContainer clearfix  Setting">
+
+<div id="mainTabsSetting" class="mainTabs">
+  <table>
+    <tr>
+      <td class="leftColContainer"><!--end personal-stats-->
+        <div class="leftsideNav">
+<ul class="ui-tabs-top">
+  <li><a href="GR_Settings_Page.html#general"><span class="general-icon"></span>General </a></li>
+
+  <li><a href="GR_Settings_Page.html#profile"><span class="profile-icon"></span>Profile </a></li>
+
+ <li><a href="GR_Settings_Page.html#membership"><span class="membership-icon"></span>Membership</a></li>
+
+  <li><a href="GR_Settings_Page.html#e-mail"><span class="e-mail-icon"></span>E-mail Notifications</a></li>
+
+  <li><a href="GR_Settings_Page.html#privacy"><span class="privacy-icon"></span>Privacy Settings</a></li>
+</ul>
+        </div>
+        <!--left column end -->      </td>
+      <td class="centerColContainer hgt-1100"> 
+      <div class="overlay_group display-none"></div>
+      <div class="box_group">
+    <a class="box_groupclose boxclose"></a>
+<div class="facebox_content">
+  <form action="GR_Settings_Page.html#" method="get"  class="eventAccept center mt20">
+  <div class="fl edit-card-details grid460">
+  <h2 class="dark-blue mb20 left">Upgrade to Premium User $19.99/mo</h2>
+                                 <div class="grid100x fl">
+                                 
+                                  <div class="line"></div>
+                            	<ul>
+                                	<li class="grid200">
+                                        <h5 class="left">Credit Card#:</h5>
+                                        <h3 class="dark-blue mt10">
+                                        <input name="credit-card-no" type="text" value="4000-6521-6987-4411" class="grid150 fl">
+                                        </h3>
+                                    </li>
+                                    <li class="grid200 ml50"><h5 class="left">Expiration:</h5>
+                                           	<ul class="editlist p0">
+                                              <li class="slc-60 mt5">
+                                                <select name="DateOfBirth_Day">
+                                                  <option selected="" value="01">01</option>
+                                                  <option value="02">02</option>
+                                                  <option value="03">03</option>
+                                                  <option value="04">04</option>
+                                                  <option value="05">05</option>
+                                                  <option value="06">06</option>
+                                                  <option value="07">07</option>
+                                                  <option value="08">08</option>
+                                                  <option value="09">09</option>
+                                                  <option value="10">10</option>
+                                                  <option value="11">11</option>
+                                                  <option value="12">12</option>
+                                                </select>
+                                              </li>
+                                               <li class="slc-100 mt10 p0" style="padding-left:0px !important;">
+                                                <select name="DateOfBirth_Year">
+                                                  <option value="2023">2023</option>
+                                                  <option value="2022">2022</option>
+                                                  <option value="2021">2021</option>
+                                                  <option value="2020">2020</option>
+                                                  <option value="2019">2019</option>
+                                                  <option value="2018">2018</option>
+                                                  <option value="2017">2017</option>
+                                                  <option value="2016">2016</option>
+                                                  <option value="2015">2015</option>
+                                                  <option value="2014">2014</option>
+                                                  <option value="2013">2013</option>
+                                                  <option value="2012">2012</option>
+                                                  <option value="2011">2011</option>
+                                                  <option value="2010">2010</option>
+                                                  <option value="2009">2009</option>
+                                                  <option value="2008">2008</option>
+                                                  <option value="2007">2007</option>
+                                                  <option value="2006">2006</option>
+                                                  <option value="2005">2005</option>
+                                                  <option value="2004">2004</option>
+                                                  <option value="2003">2003</option>
+                                                  <option value="2002">2002</option>
+                                                  <option value="2001">2001</option>
+                                                </select>
+                                              </li>
+                                    	    </ul>
+                                        </li>
+                                </ul>
+                                </div>
+                             <div class="grid100x fl hgt-70">
+                               <ul>
+                               <li>
+                                <h5 class="left mt10 mb10">Credit Card Type:</h5>
+                                <ul class="fl grid250">
+                                    <li>
+                                    	<a class="button visaCard"></a>                                    </li>
+                                    <li>
+                                    <a class="button masterCard selected"></a>                                    </li>
+                                    <li>
+                                    <a class="button americanexpressCard"></a>                                    </li>
+                                    <li class=" discoverCard">
+                                    <a class="button card discoverCard"></a>                                    </li>
+                                </ul>
+                                </li>
+                                <li>
+                                <h5 class="left mt10 mb10">CVV Code:</h5>
+                                <input name="name" type="text" class="grid50 fl"><span class="fl"><a href="GR_Settings_Page.html#" class="dark-blue ml10 showccv grid90 mt10">What's a CVV?</a> <div class="whatcvv_box">
+                                      <i class="cc_popup_tooltip_arrow mlv6"></i>
+                                      <a class="cc_popup_tip_cross hideccv grid36"></a>
+                                      <div class="cc_popup_tooltip_area grid300 p20">
+                                      	<h4 class="light-black font-bold font-italic">CVV (Card Verification Value)</h4>
+                                        <h4 class="light-black font-italic mt10">
+                                        A three- or four- digit code found separately from<br />
+                                         the 16-digit card number of your credit card</h4>
+                                         
+                                         <img src="../images/masterCardBack.png" class="mt10" />
+                                         <img src="../images/americanexpressBack.png"  class="mt10 ml15"/>
+                                         
+                                         <ul class="mb20">
+                                         	<li class="pl25 ml10"><h4 class="font-bold">Master Card</h4></li>
+                                            <li class="pl45 ml10"><h4 class="font-bold">American Express</h4></li>
+                                         </ul>
+                                      </div>
+                                    </div></span>                                </li>
+                                </ul>
+                             </div>
+                                <div class="billing-address grid100x pt15 fl">
+                                  <div class="line"></div>
+                                    <ul class="upgrade_form_list">
+                                    
+                                        <li class="grid350 left  font-semibold mb20">Billing Address</li>
+                                        <li class="grid150 ">Full Name :</li>
+                                        <li><input name="name" type="text" class="grid290"></li>
+                                        <li class="grid150 ">Address Line1 :</li>
+                                        <li><input name="Street address, P.O. box, company name, c/o" type="text" class="grid290 placeHolder"></li>
+                                        <li class="grid150">Address Line2 :</li>
+                                        <li><input name="Apartment, Suite, unit, building, floor,etc." type="text" class="grid290 placeHolder"></li>
+                                        <li class="grid150">City :</li>
+                                        <li><input name="name" type="text" class="grid290"></li>
+                                        <li class="grid150">State/Province/Region: </li>
+                                        <li><input name="name" type="text" class="grid290"></li>
+                                        <li class="grid150">Zip : </li>
+                                        <li><input name="name" type="text" class="grid290"></li>
+                                        <li class="grid150">Country : </li>
+                                        <li><input name="name" type="text" class="grid290"></li>
+                                        <li class="grid150">Phone Number : </li>
+                                        <li><input name="name" type="text" class="grid290"></li>
+                                    </ul>
+                                </div><!--billing-address-->
+                            </div>
+    <ul><li><h4 class="light-black fl mt10 mb10"><span class="checked">
+                                        <input class="cb-element" type="checkbox" name="" style="opacity: 0;">
+                                        </span>By clicking <span class="font-bold">Submit</span> you confirm that you accept the <a href="GR_Settings_Page.html#" > Terms of Services.</a></h4>
+                                    </li>
+								</ul>                        
+    <ul class="button-group clearfix">
+    
+    <li class="ml10"><input type="button"  class="green close_facebox boxclose" value="Cancel" /></li>
+     <li><input type="submit"  class="green close_facebox confirm_remove_round boxclose" value="Submit" /></li>
+    </ul>
+  </form>
+  <!-- End become_member-->
+</div>
+<!-- End facebox_content-->
+    </div>
+		<div class="tabs">
+            <div id="general">
+               <div class="uiheading">
+                  <h3>General Settings</h3>
+               </div>
+               
+                <div class="plr20">
+                    <ul class="settinglist">
+                    	<li>
+                            <div class="fl grid160">
+                            	<h4 class="dark-blue fl">Credit Card Details :</h4>
+                            </div>
+                            <div class="card-details fr p0 grid-540">
+                            	<div class="editcard_details"><ul>
+                                	<li><h5>Credit Card# :</h5><h3 class="dark-blue mt10">4000-6521-6987-4411</h3></li>
+                                    <li><h5>Expiration :</h5><h3 class="dark-blue mt10">Jan 2015</h3></li>
+                                    <li><h5>Credit Card Type :</h5>
+                                    	<img src="../images/masterCard(color).png" class=" pt7" alt="card2"/>                                    </li>
+                                    <li class=" mt20">
+                                    <h5 class="fr edit_card cursor dark-blue"><span class="read-icon"></span>edit »</h5>
+                                    </li>
+                                </ul></div>
+                                 <div class="fl edit-card-details display-none">
+                                 <div class="grid100x fl">
+                            	<ul>
+                                	<li>
+                                        <h5 class="font-13">Credit Card# :</h5>
+                                        <h3 class="dark-blue mt10">
+                                        	<input name="credit-card-no" type="text" value="4000-6521-6987-4411" class="grid150 pr10">
+                                        </h3>
+                                    </li>
+                                    <li><h5 class="font-13">Expiration :</h5>
+                                           	<ul class="editlist p0">
+                                              <li class="slc-60 mt10 p0" style="padding-left:0px !important;">
+                                                <select name="DateOfBirth_Day">
+                                                  <option selected="" value="01">01</option>
+                                                  <option value="02">02</option>
+                                                  <option value="03">03</option>
+                                                  <option value="04">04</option>
+                                                  <option value="05">05</option>
+                                                  <option value="06">06</option>
+                                                  <option value="07">07</option>
+                                                  <option value="08">08</option>
+                                                  <option value="09">09</option>
+                                                  <option value="10">10</option>
+                                                  <option value="11">11</option>
+                                                  <option value="12">12</option>
+                                                </select>
+                                              </li>
+                                               <li class="slc-100 mt10 p0" style="padding-left:0px !important;">
+                                                <select name="DateOfBirth_Year">
+                                                  <option value="2001">2001</option>
+                                                  <option value="2002">2002</option>
+                                                  <option value="2003">2003</option>
+                                                  <option value="2004">2004</option>
+                                                  <option value="2005">2005</option>
+                                                  <option value="2006">2006</option>
+                                                  <option value="2007">2007</option>
+                                                  <option value="2008">2008</option>
+                                                  <option value="2009">2009</option>
+                                                  <option value="2010">2010</option>
+                                                  <option value="2011">2011</option>
+                                                  <option value="2012">2012</option>
+                                                  <option value="2013">2013</option>
+                                                  <option value="2014">2014</option>
+                                                  <option  selected='' value="2015">2015</option>
+                                                  <option value="2016">2016</option>
+                                                  <option value="2017">2017</option>
+                                                  <option value="2018">2018</option>
+                                                  <option value="2019">2019</option>
+                                                  <option value="2020">2020</option>
+                                                  <option value="2021">2021</option>
+                                                  <option value="2022">2022</option>
+                                                  <option value="2023">2023</option>
+                                                </select>
+                                              </li>
+                                    	    </ul>
+                                        </li>
+                                </ul>
+                                </div>
+                             <div class="grid100x fl">
+                                <h5 class="ml25 mt10 mb10 font-13">Credit Card Type :</h5>
+                             </div>
+                             <div class="fl General">
+                                <ul class="fl ml20">
+                                    <li>
+                                    	<a class="button visaCard" href="GR_Settings_Page.html#"></a>                                    </li>
+                                    <li>
+                                    <a class="button masterCard selected" href="GR_Settings_Page.html#"></a>                                    </li>
+                                    <li>
+                                    <a class="button americanexpressCard" href="GR_Settings_Page.html#"></a>                                    </li>
+                                    <li>
+                                    <a class="button card discoverCard" href="GR_Settings_Page.html#"></a>                                    </li>
+                                </ul>
+                                </div>
+                                <div class="billing-address grid100x pt15 fl">
+                                    	<div class="bborder grid100x ml25 pb5"><h4> Billing Address</h4></div>
+                                	
+                                  <div class="grid100x fl">
+                                    <ul>
+                                    	
+                                        <li class="grid130 mt5"><h5 class="font-13">Full Name :</h5></li>
+                                        <li><input name="name" type="text" class="fr grid300"></li>
+                                        <li class="grid130 mt5"><h5 class="font-13">Address Line1 :</h5></li>
+                                        <li><input name="Street address, P.O. box, company name, c/o" type="text" class="fr placeHolder watermark grid300"></li>
+                                        <li class="grid130 mt5"><h5 class="font-13">Address Line2 :</h5></li>
+                                        <li><input name="Apartment, suite, unit, building, floor, etc." type="text" class="fr placeHolder watermark grid300"></li>
+                                        <li class="grid130 mt5"><h5 class="font-13">State/Province/Region : </h5></li>
+                                        <li><input name="state" type="text" class="fr"></li>
+                                        <li class="grid130 mt5"><h5 class="font-13">City :</h5></li>
+                                        <li><input name="state" type="text" class="fr"></li>
+                                        <li class="grid130 mt5"><h5 class="font-13">Zip : </h5></li>
+                                        <li><input name="zip" type="text" class="fr"></li>
+                                        <li class="grid130 mt5"><h5 class="font-13">Country : </h5></li>
+                                        <li>
+                                         <select name="Country">
+                                            <option value="Afghanistan">Afghanistan</option>
+                                            <option value="Albania">Albania</option>
+                                            <option value="Algeria">Algeria </option>
+                                            <option value="Andorra">Andorra</option>
+                                            <option value="Angola">Angola</option>
+                                            <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                            <option value="Argentina">Argentina</option>
+                                            <option value="Armenia ">Armenia</option>
+                                            <option value="Australia">Australia</option>
+                                            <option value="Austria">Austria</option>
+                                            <option value="Azerbaijan">Azerbaijan</option>
+                                            <option value="Bahamas">Bahamas </option>
+                                            <option value="Bahrain">Bahrain</option>
+                                            <option value="Bangladesh">Bangladesh </option>
+                                            <option value="Barbados">Barbados</option>
+                                            <option value="Belarus">Belarus</option>
+                                            <option value="Belgium">Belgium</option>
+                                            <option value="Belize">Belize</option>
+                                            <option value="Benin">Benin</option>
+                                            <option value="Bhutan">Bhutan</option>
+                                            <option value="Bolivia">Bolivia </option>
+                                            <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                                            <option value="Botswana">Botswana</option>
+                                            <option value="Brazil">Brazil</option>
+                                            <option value="Brunei">Brunei</option>
+                                            <option value="Bulgaria">Bulgaria</option>
+                                            <option value="Burkina Faso">Burkina Faso</option>
+                                            <option value="Burma/Myanmar">Burma/Myanmar </option>
+                                            <option value="Burundi">Burundi</option>
+                                            <option value="Cambodia">Cambodia </option>
+                                            <option value="Cameroon">Cameroon </option>
+                                            <option value="Canada">Canada</option>
+                                            <option value="Cape Verde">Cape Verde </option>
+                                            <option value="Central African Republic">Central African Republic</option>
+                                            <option value="Chad">Chad</option>
+                                            <option value="Chile">Chile </option>
+                                            <option value="China">China </option>
+                                            <option value="Colombia">Colombia </option>
+                                            <option value="Comoros">Comoros</option>
+                                            <option value="Congo">Congo</option>
+                                            <option value="Congo, Democratic Republic of">Congo</option>
+                                            <option value="Costa Rica">Costa Rica</option>
+                                            <option value="Cote d'Ivoire/Ivory Coast">Cote d'Ivoire/Ivory Coast</option>
+                                            <option value="Croatia">Croatia</option>
+                                            <option value="Cuba">Cuba</option>
+                                            <option value="Cyprus">Cyprus</option>
+                                            <option value="Czech Republic">Czech Republic</option>
+                                            <option value="Denmark">Denmark</option>
+                                            <option value="Djibouti">Djibouti</option>
+                                            <option value="Dominica">Dominica</option>
+                                            <option value="Dominican Republic">Dominican Republic</option>
+                                            <option value="East Timor">East Timor</option>
+                                            <option value="Ecuador">Ecuador</option>
+                                            <option value="Egypt">Egypt</option>
+                                            <option value="El Salvador">El Salvador</option>
+                                            <option value="Equatorial Guinea">Equatorial Guinea</option>
+                                            <option value="Eritrea">Eritrea</option>
+                                            <option value="Estonia">Estonia</option>
+                                            <option value="Ethiopia">Ethiopia </option>
+                                            <option value="Fiji">Fiji</option>
+                                            <option value="Finland">Finland </option>
+                                            <option value="France">France</option>
+                                            <option value="Gabon">Gabon</option>
+                                            <option value="Gambia">Gambia</option>
+                                            <option value="Georgia">Georgia</option>
+                                            <option value="Germany">Germany </option>
+                                            <option value="Ghana">Ghana</option>
+                                            <option value="Greece">Greece</option>
+                                            <option value="Grenada">Grenada</option>
+                                            <option value="Guatemala">Guatemala</option>
+                                            <option value="Guinea">Guinea </option>
+                                            <option value="Guinea-Bissau">Guinea-Bissau</option>
+                                            <option value="Guyana">Guyana</option>
+                                            <option value="Haiti">Haiti</option>
+                                            <option value="Honduras ">Honduras</option>
+                                            <option value="Hungary">Hungary</option>
+                                            <option value="Iceland ">Iceland </option>
+                                            <option value="India">India</option>
+                                            <option value="Indonesia">Indonesia</option>
+                                            <option value="Iran">Iran </option>
+                                            <option value="Iraq ">Iraq</option>
+                                            <option value="Ireland ">Ireland</option>
+                                            <option value="Israel">Israel</option>
+                                            <option value="Italy ">Italy</option>
+                                            <option value="Jamaica">Jamaica</option>
+                                            <option value="Japan">Japan</option>
+                                            <option value="Jordan">Jordan</option>
+                                            <option value="Kazakhstan">Kazakhstan</option>
+                                            <option value="Kenya">Kenya</option>
+                                            <option value="Kiribati">Kiribati</option>
+                                            <option value="Korea, North">Korea, North</option>
+                                            <option value="Korea, South">Korea, South</option>
+                                            <option value="Kuwait">Kuwait </option>
+                                            <option value="Kyrgyzstan">Kyrgyzstan</option>
+                                            <option value="Laos">Laos </option>
+                                            <option value="Latvia">Latvia </option>
+                                            <option value="Lebanon">Lebanon </option>
+                                            <option value="Lesotho">Lesotho </option>
+                                            <option value="Liberia">Liberia</option>
+                                            <option value="Libya">Libya </option>
+                                            <option value="Liechtenstein">Liechtenstein</option>
+                                            <option value="Lithuania">Lithuania</option>
+                                            <option value="Luxembourg">Luxembourg</option>
+                                            <option value="Macedonia">Macedonia</option>
+                                            <option value="Madagascar">Madagascar</option>
+                                            <option value="Malawi">Malawi</option>
+                                            <option value="Malaysia">Malaysia</option>
+                                            <option value="Maldives">Maldives</option>
+                                            <option value="Mali">Mali</option>
+                                            <option value="Malta">Malta </option>
+                                            <option value="Marshall Islands">Marshall Islands</option>
+                                            <option value="Mauritania">Mauritania</option>
+                                            <option value="Mauritius">Mauritius </option>
+                                            <option value="Mexico">Mexico</option>
+                                            <option value="Micronesia">Micronesia</option>
+                                            <option value="Moldova">Moldova </option>
+                                            <option value="Monaco">Monaco</option>
+                                            <option value="Mongolia">Mongolia</option>
+                                            <option value="Montenegro">Montenegro</option>
+                                            <option value="Morocco">Morocco </option>
+                                            <option value="Mozambique">Mozambique</option>
+                                            <option value="Namibia">Namibia</option>
+                                            <option value="Nauru">Nauru </option>
+                                            <option value="Nepal">Nepal</option>
+                                            <option value="Netherlands">Netherlands</option>
+                                            <option value="New Zealand">New Zealand</option>
+                                            <option value="Nicaragua">Nicaragua</option>
+                                            <option value="Niger">Niger</option>
+                                            <option value="Nigeria">Nigeria</option>
+                                            <option value="Norway">Norway</option>
+                                            <option value="Oman">Oman</option>
+                                            <option value="Pakistan">Pakistan</option>
+                                            <option value="Palau">Palau</option>
+                                            <option value="Panama">Panama</option>
+                                            <option value="Papua New Guinea">Papua New Guinea</option>
+                                            <option value="Paraguay">Paraguay</option>
+                                            <option value="Peru">Peru</option>
+                                            <option value="Philippines">Philippines</option>
+                                            <option value="Poland">Poland</option>
+                                            <option value="Portugal">Portugal</option>
+                                            <option value="Qatar">Qatar</option>
+                                            <option value="Romania">Romania</option>
+                                            <option value="Russian Federation">Russian Federation</option>
+                                            <option value="Rwanda">Rwanda </option>
+                                            <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                                            <option value="Saint Lucia">Saint Lucia</option>
+                                            <option value="Samoa">Samoa</option>
+                                            <option value="San Marino">San Marino</option>
+                                            <option value="Saudi Arabia">Saudi Arabia</option>
+                                            <option value="Senegal">Senegal</option>
+                                            <option value="Serbia">Serbia</option>
+                                            <option value="Seychelles">Seychelles</option>
+                                            <option value="Sierra Leone">Sierra Leone</option>
+                                            <option value="Singapore">Singapore</option>
+                                            <option value="Slovakia">Slovakia </option>
+                                            <option value="Slovenia">Slovenia</option>
+                                            <option value="Solomon Islands">Solomon Islands</option>
+                                            <option value="Somalia">Somalia </option>
+                                            <option value="South Africa">South Africa </option>
+                                            <option value="South Sudan">South Sudan</option>
+                                            <option value="Spain">Spain </option>
+                                            <option value="Sri Lanka">Sri Lanka</option>
+                                            <option value="Sudan">Sudan</option>
+                                            <option value="Suriname">Suriname</option>
+                                            <option value="Swaziland">Swaziland</option>
+                                            <option value="Sweden">Sweden</option>
+                                            <option value="Switzerland">Switzerland</option>
+                                            <option value="Syria">Syria</option>
+                                            <option value="Tajikistan">Tajikistan </option>
+                                            <option value="Tanzania">Tanzania </option>
+                                            <option value="Thailand">Thailand</option>
+                                            <option value="Togo">Togo</option>
+                                            <option value="Tonga">Tonga</option>
+                                            <option value="Trinidad and Tobago ">Trinidad and Tobago</option>
+                                            <option value="Tunisia">Tunisia</option>
+                                            <option value="Turkey">Turkey</option>
+                                            <option value="Turkmenistan">Turkmenistan</option>
+                                            <option value="Tuvalu">Tuvalu</option>
+                                            <option value="Uganda">Uganda</option>
+                                            <option value="Ukraine">Ukraine</option>
+                                            <option value="United Arab Emirates">United Arab Emirates</option>
+                                            <option value="United Kingdom">United Kingdom</option>
+                                            <option  selected=""  value="United States">United States </option>
+                                            <option value="Uruguay">Uruguay</option>
+                                            <option value="Uzbekistan">Uzbekistan</option>
+                                            <option value="Vanuatu ">Vanuatu</option>
+                                            <option value="Vatican City">Vatican City</option>
+                                            <option value="Venezuela">Venezuela</option>
+                                            <option value="Vietnam ">Vietnam </option>
+                                            <option value="Zambia">Zambia</option>
+                                            <option value="Zimbabwe">Zimbabwe</option>
+                                          </select>
+                                        </li>
+                                        <li class="grid130 mt5"><h5 class="font-13">Phone Number : </h5></li>
+                                        <li><input name="phone-number" type="text" class="fr"></li>
+                                        <li class="button-save ml10"> 
+	                                       	<input class=" button green ml15 mr15" type="button" value="Save Credit Card" name="">
+                                        </li>
+                                        <li class="button-save mt5"><a class="font-13 underline cancel_cardDetail" href="GR_Settings_Page.html#">Cancel</a></li>
+                                    </ul>
+                                    </div>
+                                </div><!--billing-address-->
+                            </div>
+                           </div>
+                        </li>
+                        <li>
+                        	<div class="fl grid160 mt20">
+                            	<h4 class="dark-blue fl">Reimbursement for Event Cancellation :</h4>
+                            </div>
+                   <div class="fl ml37">
+                       <div class=" mb10">
+                            <h5>How you want to be paid by Golf Rival on event cancellations</h5>
+                       </div>
+                         <div class="mainSubtabs">               
+                      
+                      <div class="pb10 cancellation-option">
+                            <ul class="clearfix">
+                            <li class="dark-blue grid200 p0 border-none font-regular">
+                                    <a href="GR_Settings_Page.html#Mail" class="mtv2"><input name="Cancellation" type="radio" checked="checked"></a>
+                                    <a class="underline font-12 fr mr30 edit-address-mail cursor">change</a>Mailing Address                            </li>
+                            <li class="grid200 p0 border-none dark-blue font-regular">
+                                <a href="GR_Settings_Page.html#Paypal" class="mtv2"><input name="Cancellation" type="radio"></a>
+                                <a class="underline font-12 fr mr80 edit-address-paypal cursor">change</a>PayPal                            </li>
+                            </ul>
+                      </div>
+                      
+             		<div class="edit-mailing-address display-none">
+                    <div id="Mail" class="font-12 Checkmail">
+                     <h5 class="mt5">Address line 1</h5>
+                         <input name="" class=" grid300" type="text">
+                     <h5 class="mt5">Address line 2</h5>
+                         <input name="" class="grid300" type="text">
+                     <ul class="filterEvents clearfix pess-paid mt3">
+                         
+                         <li class="border-none p0"><h5 class="mb0">State</h5>
+                            <input name="" class="grid100" type="text">
+                         </li>
+                         <li class="border-none p0"><h5 class="mb0">City</h5>
+                            <input name="" class="grid100" type="text">
+                         </li>
+                         <li class="border-none p0"><h5 class="mb0">ZIP</h5>
+                            <input name="" class=" grid80 " type="text"> 
+                         </li>
+                       </ul>
+                      		<input class=" button green small mt15 mr15" type="button" value="Save Address" name="">
+                            <a class="font-13 underline cancel-address-mail cursor">Cancel</a>    
+                      </div>
+                                
+                      <div id="Paypal" class=" font-12 paypal">
+                       <h5>Paypal ID</h5>
+                       <input name="e.g.john@smith.com" class="placeHolder watermark" type="text">
+                       <h5 class="mt10">Confirm Paypal ID</h5>
+                       <input name="e.g.john@smith.com" class="placeHolder watermark" type="text">
+                       <h5 class="mt10">
+                        <input class=" button green mr15" type="button" value="Save PayPal ID" name="">
+                        <a class="font-13 underline cancel-address-paypal cursor">Cancel</a>                       </h5>
+                      </div>    
+                      </div><!--edit-mailing-address-->              
+                   </div>                 
+                   </div> 
+                        </li>
+                        
+                        <li class="mb100">
+                        	<div class="fl grid160">
+                            	<h4 class="dark-blue fl ">Account Deactivation :</h4>
+                            </div>
+                            
+                            <div class="fl ml37 account-details">
+                            	<div class="editaccount_details">
+                            		<a class="underline edit_account cursor">Deactivate Account</a>
+                                </div>
+                                <div class="account-deactivation display-none">
+                                	
+                                     <ul class="filterEvents clearfix pess-paid mt3">
+                                         <li class="border-none p0"><h5 class="dark-blue">Account Password</h5>
+                                            <input name="" class=" grid200" type="password">
+                                         </li>
+                                      
+                                         <li class="border-none p0 mt30">
+                                            
+                                            <a href="deactivate_account.html" class="open_facebox"><input class=" button green ml15 mr15" type="button" value="Deactivate Account" name=""></a>
+                                            <a class="font-13 underline cancel_account cursor">Cancel</a>                                         </li>
+                                       </ul>
+                       				
+                                    <div class="notification-deactivation mb30 mt10">
+                                        <h5 class="pl45">Upon deactivation, all of your activities will be deleted and
+                                        you <br>will be removed from all leaderboards.
+                                        <span class=" font-14 black"> THIS CANNOT BE UNDONE.</span></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+	        </div> <!--End general-->
+            
+            
+		    <div id="profile">
+            <div class="uiheading">
+      	  <h3>Profile Settings</h3>
+        </div>
+        <div class="plr20">
+        <ul class="settinglist">
+        <li>
+            <div class="UIImageBlock_Image mb10"><a href="upload_photo.html" class="profile-pic open_facebox"><div class="club-logo-placeholder fl hgt-125 "><img src="../images/default_upload_images.png" class="fl" alt=""/></div></a></div>
+            <div class="UIImageBlock_Content grid300 mt20">
+              <h5>Membership Status</h5>
+              <h3 class="dark-blue mt10">Free Account</h3>
+              
+              <h5 class="mt20 member"><a href="GR_Settings_Page.html#membership" class="menber_btn" >Upgrade Membership</a></h5>
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="UIImageBlock_Content">
+            <div class="title-edit">
+            <h5 class="mb5 font-12">Name</h5>
+             <h5 class="fr edit_profile"><span class="read-icon"></span>edit »</h5>
+              <div class="user-title">
+                <h3 class="dark-blue">Valery Sibikovsky </h3>
+                <div class="hidefield"><ul class="editlist">
+                <li><input name="First Name" type="text" class=" grid200 placeHolder" value="Valery"> <input name="Last Name" type="text" class=" grid200 placeHolder" value="Sibikovsky"> </li>
+                <li><input name="" type="button" class=" button green ml15 mr15" value="Save"> </li>
+                <li class="edit_cancel">Cancel</li></ul></div>
+              </div>           
+            </div></div>
+          </li>
+          <li>
+            
+            <div class="UIImageBlock_Content">
+            <div class="title-edit">
+            <h5 class="mb5 font-12">Birthday</h5>
+             <h5 class="fr edit_profile"><span class="read-icon"></span>edit »</h5>
+              <div class="user-title">
+                <h3 class="dark-blue">Born on January 01,1980</h3>
+                <div class="hidefield"><ul class="editlist">
+          <li class="slc-125">
+            <select name="DateOfBirth_Month">
+              <option selected="" value="1">January</option>
+              <option value="2">February</option>
+              <option value="3">March</option>
+              <option value="4">April</option>
+              <option value="5">May</option>
+              <option value="6">June</option>
+              <option value="7">July</option>
+              <option value="8">August</option>
+              <option value="9">September</option>
+              <option value="10">October</option>
+              <option value="11">November</option>
+              <option value="12">December</option>
+            </select>
+          </li>
+          <li class="slc-60">
+            <select name="DateOfBirth_Day">
+              <option selected="" value="01">01</option>
+              <option value="02">02</option>
+              <option value="03">03</option>
+              <option value="04">04</option>
+              <option value="05">05</option>
+              <option value="06">06</option>
+              <option value="07">07</option>
+              <option value="08">08</option>
+              <option value="09">09</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+          </li>
+          <li class="slc-100">
+            <select name="DateOfBirth_Year">
+              <option value="2011">2011</option>
+              <option value="2010">2010</option>
+              <option value="2009">2009</option>
+              <option value="2008">2008</option>
+              <option value="2007">2007</option>
+              <option value="2006">2006</option>
+              <option value="2005">2005</option>
+              <option value="2004">2004</option>
+              <option value="2003">2003</option>
+              <option value="2002">2002</option>
+              <option value="2001">2001</option>
+              <option value="2000">2000</option>
+              <option value="1999">1999</option>
+              <option value="1998">1998</option>
+              <option value="1997">1997</option>
+              <option value="1996">1996</option>
+              <option value="1995">1995</option>
+              <option value="1994">1994</option>
+              <option value="1993">1993</option>
+              <option value="1992">1992</option>
+              <option value="1991">1991</option>
+              <option value="1990">1990</option>
+              <option value="1989">1989</option>
+              <option value="1988">1988</option>
+              <option value="1987">1987</option>
+              <option value="1986">1986</option>
+              <option value="1985">1985</option>
+              <option value="1984">1984</option>
+              <option value="1983">1983</option>
+              <option value="1982">1982</option>
+              <option value="1981">1981</option>
+              <option selected="" value="1980">1980</option>
+              <option value="1979">1979</option>
+              <option value="1978">1978</option>
+              <option value="1977">1977</option>
+              <option value="1976">1976</option>
+              <option value="1975">1975</option>
+              <option value="1974">1974</option>
+              <option value="1973">1973</option>
+              <option value="1972">1972</option>
+              <option value="1971">1971</option>
+              <option value="1970">1970</option>
+              <option value="1969">1969</option>
+              <option value="1968">1968</option>
+              <option value="1967">1967</option>
+              <option value="1966">1966</option>
+              <option value="1965">1965</option>
+              <option value="1964">1964</option>
+              <option value="1963">1963</option>
+              <option value="1962">1962</option>
+              <option value="1961">1961</option>
+              <option value="1960">1960</option>
+              <option value="1959">1959</option>
+              <option value="1958">1958</option>
+              <option value="1957">1957</option>
+              <option value="1956">1956</option>
+              <option value="1955">1955</option>
+              <option value="1954">1954</option>
+              <option value="1953">1953</option>
+              <option value="1952">1952</option>
+              <option value="1951">1951</option>
+              <option value="1950">1950</option>
+              <option value="1949">1949</option>
+              <option value="1948">1948</option>
+              <option value="1947">1947</option>
+              <option value="1946">1946</option>
+              <option value="1945">1945</option>
+              <option value="1944">1944</option>
+              <option value="1943">1943</option>
+              <option value="1942">1942</option>
+              <option value="1941">1941</option>
+              <option value="1940">1940</option>
+              <option value="1939">1939</option>
+              <option value="1938">1938</option>
+              <option value="1937">1937</option>
+              <option value="1936">1936</option>
+              <option value="1935">1935</option>
+              <option value="1934">1934</option>
+              <option value="1933">1933</option>
+              <option value="1932">1932</option>
+              <option value="1931">1931</option>
+              <option value="1930">1930</option>
+              <option value="1929">1929</option>
+              <option value="1928">1928</option>
+              <option value="1927">1927</option>
+              <option value="1926">1926</option>
+              <option value="1925">1925</option>
+              <option value="1924">1924</option>
+              <option value="1923">1923</option>
+              <option value="1922">1922</option>
+              <option value="1921">1921</option>
+              <option value="1920">1920</option>
+              <option value="1919">1919</option>
+              <option value="1918">1918</option>
+              <option value="1917">1917</option>
+              <option value="1916">1916</option>
+              <option value="1915">1915</option>
+              <option value="1914">1914</option>
+              <option value="1913">1913</option>
+              <option value="1912">1912</option>
+              <option value="1911">1911</option>
+              <option value="1910">1910</option>
+              <option value="1909">1909</option>
+              <option value="1908">1908</option>
+              <option value="1907">1907</option>
+              <option value="1906">1906</option>
+              <option value="1905">1905</option>
+              <option value="1904">1904</option>
+              <option value="1903">1903</option>
+              <option value="1902">1902</option>
+              <option value="1901">1901</option>
+              <option value="1900">1900</option>
+            </select>
+          </li>
+          <li><input name="" type="button" class=" button green ml15 mr10" value="Save"></li>
+          <li class="edit_cancel">Cancel</li>
+        </ul>
+             </div>
+              </div>           
+            </div></div>
+          </li>
+          <li>
+            
+            <div class="UIImageBlock_Content">
+            <div class="title-edit">
+            <h5 class="mb5 font-12">Gender</h5>
+             <h5 class="fr edit_profile"><span class="read-icon"></span>edit »</h5>
+              <div class="user-title">
+                <h3 class="dark-blue">Male </h3>
+                <div class="hidefield"><ul class="editlist">
+          <li class="slc-125">
+            <select name="DateOfBirth_Month">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              </select>
+              </li>
+          <li><input name="" type="button" class=" button green ml15 mr10" value="Save"></li>
+          <li class="edit_cancel">Cancel</li>
+        </ul></div>
+              </div>           
+            </div></div>
+          </li>
+          <li>
+            
+            <div class="UIImageBlock_Content">
+            <div class="title-edit">
+            <h5 class="mb5 font-12">Location</h5>
+             <h5 class="fr edit_profile"><span class="read-icon"></span>edit »</h5>
+              <div class="user-title">
+                <h3 class="dark-blue">Springfield, MA</h3>
+                <div class="hidefield"><ul class="editlist">
+                <li class="font-13 dark-blue grid-500">State</li>
+          <li><input name="" type="text" class=" grid200" value="Massachusetts "> </li>
+          <li class="font-13 dark-blue grid-500">City</li>
+          <li><input name="" type="text" class=" grid200" value="Springfield"> </li>
+          <li><input name="" type="button" class=" button green ml15 mr10" value="Save"></li>
+          <li class="edit_cancel">Cancel</li>
+        </ul></div>
+              </div>           
+            </div></div>
+          </li>
+          <li>
+            
+            <div class="UIImageBlock_Content">
+            <div class="title-edit">
+            <h5 class="mb5 font-12">Timezone</h5>
+             <h5 class="fr edit_profile"><span class="read-icon"></span>edit »</h5>
+              <div class="user-title">
+                <h3 class="dark-blue"> (GMT-07:00) Mountain Time (US and Canada)</h3>
+                <div class="hidefield"><ul class="editlist">
+          <li class="slc-400">
+            <select name="timezone">
+            <option value="International Date Line West"> (GMT-11:00) International Date Line West</option>
+<option value="Midway Island"> (GMT-11:00) Midway Island</option>
+<option value="American Samoa "> (GMT-11:00) American Samoa</option>
+<option value="Hawaii "> (GMT-10:00) Hawaii</option>
+<option value="Alaska "> (GMT-09:00) Alaska</option>
+<option value="Pacific Time (US and Canada) "> (GMT-08:00) Pacific Time (US and Canada)</option>
+<option value="Tijuana "> (GMT-08:00) Tijuana</option>
+<option  selected="" value="Mountain Time (US and Canada) "> (GMT-07:00) Mountain Time (US and Canada)</option>
+<option value="Arizona "> (GMT-07:00) Arizona</option>
+<option value="Chihuahua "> (GMT-07:00) Chihuahua</option>
+<option value="Mazatlan "> (GMT-07:00) Mazatlan</option>
+<option value="Central Time (US and Canada) "> (GMT-06:00) Central Time (US and Canada)</option>
+<option value="Saskatchewan "> (GMT-06:00) Saskatchewan</option>
+<option value="Guadalajara "> (GMT-06:00) Guadalajara</option>
+<option value="Mexico City "> (GMT-06:00) Mexico City</option>
+<option value="Monterrey "> (GMT-06:00) Monterrey</option>
+<option value="Central America "> (GMT-06:00) Central America</option>
+<option value="Eastern Time (US and Canada) "> (GMT-05:00) Eastern Time (US and Canada)</option>
+<option value="Indiana (East) "> (GMT-05:00) Indiana (East)</option>
+<option value="Bogota "> (GMT-05:00) Bogota</option>
+<option value="Lima"> (GMT-05:00) Lima</option>
+<option value="Quito "> (GMT-05:00) Quito</option>
+<option value="Atlantic Time (Canada) "> (GMT-04:00) Atlantic Time (Canada)</option>
+<option value="Caracas "> (GMT-04:30) Caracas</option>
+<option   value="La Paz "> (GMT-04:00) La Paz</option>
+<option value="Santiago "> (GMT-04:00) Santiago</option>
+<option value="Newfoundland "> (GMT-03:30) Newfoundland</option>
+<option value="Brasilia "> (GMT-03:00) Brasilia</option>
+<option value="Buenos Aires "> (GMT-03:00) Buenos Aires</option>
+<option value="Georgetown "> (GMT-04:00) Georgetown</option>
+<option value="Greenland"> 	 (GMT-03:00) Greenland</option>
+<option value="Mid-Atlantic"> (GMT-02:00) Mid-Atlantic</option>
+<option value="Azores">(GMT-01:00) Azores</option>
+<option value="Cape Verde Is.">GMT-01:00) Cape Verde Is.</option>
+<option value="Dublin">GMT+00:00) Dublin</option>
+<option value="Edinburgh">(GMT+00:00) Edinburgh</option>
+<option value="Lisbon">(GMT+00:00) Lisbon</option>
+<option value="London">(GMT+00:00) London</option>
+<option value="Casablanca">(GMT+00:00) Casablanca</option>
+<option value="Monrovia">(GMT+00:00) Monrovia</option>
+<option value="Belgrade">(GMT+01:00) Belgrade</option>
+<option value="Bratislava">(GMT+01:00) Bratislava</option>
+<option value="Budapest"> (GMT+01:00) Budapest</option>
+<option value="Ljubljana">(GMT+01:00) Ljubljana</option>
+<option value="Prague">(GMT+01:00) Prague</option>
+<option value="Sarajevo">(GMT+01:00) Sarajevo</option>
+<option value="Skopje">(GMT+01:00) Skopje</option>
+<option value="Warsaw">(GMT+01:00) Warsaw</option>
+<option value="Zagreb">(GMT+01:00) Zagreb</option>
+<option value="Brussels"> (GMT+01:00) Brussels</option>
+<option value="Copenhagen">(GMT+01:00) Copenhagen</option>
+<option value="Madrid"> (GMT+01:00) Madrid</option>
+<option value="Paris">	 (GMT+01:00) Paris</option>
+<option value="Amsterdam"> (GMT+01:00) Amsterdam</option>
+<option value="Berlin"> (GMT+01:00) Berlin</option>
+<option value="Bern"> (GMT+01:00) Bern</option>
+<option value="Rome">(GMT+01:00) Rome</option>
+<option value="Stockholm"> (GMT+01:00) Stockholm</option>
+<option value="Vienna">(GMT+01:00) Vienna</option>
+<option value="West Central Africa">(GMT+01:00) West Central Africa</option>
+<option value="Bucharest">(GMT+02:00) Bucharest</option>
+<option value="Cairo">(GMT+02:00) Cairo</option>
+<option value="Helsinki">(GMT+02:00) Helsinki</option>
+<option value="Kyiv">(GMT+02:00) Kyiv</option>
+<option value="Riga">(GMT+02:00) Riga</option>
+<option value="Sofia">(GMT+02:00) Sofia</option>
+<option value="Tallinn">(GMT+02:00) Tallinn</option>
+<option value="Vilnius">(GMT+02:00) Vilnius</option>
+<option value="Athens">(GMT+02:00) Athens</option>
+<option value="America/Monterrey">(GMT+02:00) Istanbul</option>
+<option value="Minsk">(GMT+03:00) Minsk</option>
+<option value="Jerusalem">(GMT+02:00) Jerusalem</option>
+<option value="Harare">(GMT+02:00) Harare</option>
+<option value="Pretoria">(GMT+02:00) Pretoria</option>
+<option value="Moscow">(GMT+04:00) Moscow</option>
+<option value="St. Petersburg">(GMT+04:00) St. Petersburg</option>
+<option value="Volgograd ">(GMT+04:00) Volgograd</option>
+<option value="Kuwait">(GMT+03:00) Kuwait</option>
+<option value="Ritadh">(GMT+03:00) Riyadh</option>
+<option value="Nairobi">(GMT+03:00) Nairobi</option>
+<option value="Baghdad">(GMT+03:00) Baghdad</option>
+<option value="Tehran">(GMT+03:30) Tehran </option>
+<option value="Abu Dhabi">(GMT+04:00) Abu Dhabi </option>
+<option value="Muscat ">(GMT+04:00) Muscat </option>
+<option value="Baku">(GMT+04:00) Baku</option>
+<option value="Tbilisi">(GMT+04:00) Tbilisi </option>
+<option value="Yerevan">(GMT+04:00) Yerevan </option>
+<option value="Kabul ">(GMT+04:30) Kabul </option>
+<option value="Ekaterinburg">(GMT+06:00) Ekaterinburg</option>
+<option value="Islamabad">(GMT+05:00) Islamabad </option>
+<option value="Karachi">(GMT+05:00) Karachi </option>
+<option value="Tashkent ">(GMT+05:00) Tashkent </option>
+<option value="Chennai">(GMT+05:30) Chennai</option>
+<option value="Kolkata">(GMT+05:30) Kolkata </option>
+<option value="Mumbai">(GMT+05:30) Mumbai </option>
+<option value="New Delhi ">(GMT+05:30) New Delhi </option>
+<option value="Kathmandu">(GMT+05:45) Kathmandu</option>
+<option value="Astana">(GMT+06:00) Astana</option>
+<option value="Dhaka">(GMT+06:00) Dhaka </option>
+<option value="Sri Jayawardenepura">(GMT+05:30) Sri Jayawardenepura </option>
+<option value="Almaty ">(GMT+06:00) Almaty </option>
+<option value="Novosibirsk">(GMT+07:00) Novosibirsk</option>
+<option value="Rangoon">(GMT+06:30) Rangoon </option>
+<option value="Bangkok">(GMT+07:00) Bangkok </option>
+<option value="Hanoi "> (GMT+07:00) Hanoi</option>
+<option value="Jakarta">(GMT+07:00) Jakarta</option>
+<option value="Krasnoyarsk ">(GMT+08:00) Krasnoyarsk </option>
+<option value="Beijing">(GMT+08:00) Beijing</option>
+<option value="Chongqing">(GMT+08:00) Chongqing </option>
+<option value="Hong Kong"> (GMT+08:00) Hong Kong</option>
+<option value=" Urumqi"> (GMT+08:00) Urumqi</option>
+<option value="Kuala Lumpur">(GMT+08:00) Kuala Lumpur</option>
+<option value="Singapore">(GMT+08:00) Singapore </option>
+<option value="Taipei">(GMT+08:00) Taipei </option>
+<option value="Perth "> (GMT+08:00) Perth</option>
+<option value="Irkutsk">(GMT+09:00) Irkutsk</option>
+<option value="Ulaan Bataar">(GMT+08:00) Ulaan Bataar</option>
+<option value="Seoul">(GMT+09:00) Seoul </option>
+<option value="Osaka">(GMT+09:00) Osaka </option>
+<option value="Sapporo ">(GMT+09:00) Sapporo </option>
+<option value="Tokyo">(GMT+09:00) Tokyo</option>
+<option value="Yakutsk">(GMT+10:00) Yakutsk </option>
+<option value="Darwin"> (GMT+09:30) Darwin</option>
+<option value="Adelaide "> (GMT+09:30) Adelaide</option>
+<option value="Canberra">(GMT+10:00) Canberra</option>
+<option value="Melbourne">(GMT+10:00) Melbourne</option>
+<option value="Sydney ">(GMT+10:00) Sydney </option>
+<option value="Brisbane">(GMT+10:00) Brisbane</option>
+<option value="Hobart"> (GMT+10:00) Hobart</option>
+<option value="Vladivostok">(GMT+11:00) Vladivostok </option>
+<option value="Guam ">(GMT+10:00) Guam </option>
+<option value="Port Moresby">(GMT+10:00) Port Moresby</option>
+<option value="Magadan">(GMT+12:00) Magadan </option>
+<option value="Solomon Is.">(GMT+12:00) Solomon Is. </option>
+<option value="New Caledonia "> (GMT+11:00) New Caledonia</option>
+<option value="Fiji">(GMT+12:00) Fiji</option>
+<option value="Kamchatka">(GMT+12:00) Kamchatka</option>
+<option value="Marshall Is.">(GMT+12:00) Marshall Is. </option>
+<option value="Auckland">(GMT+12:00) Auckland </option>
+<option value=" Wellington"> (GMT+12:00) Wellington</option>
+<option value="Nuku'alofa">(GMT+13:00) Nuku'alofa</option>
+<option value="Tokelau Is. ">(GMT+14:00) Tokelau Is. </option>
+<option value="Samoa">(GMT+13:00) Samoa </option>
+</select>
+          </li>
+          <li><input name="" type="button" class=" button green ml15 mr10" value="Save"></li>
+          <li class="edit_cancel">Cancel</li>
+        </ul></div>
+              </div>           
+            </div></div>
+          </li>
+           <li>
+            
+            <div class="UIImageBlock_Content">
+            <div class="title-edit">
+            <h5 class="mb5 font-12">Email Address</h5>
+             <h5 class="fr edit_profile"><span class="read-icon"></span>edit »</h5>
+              <div class="user-title">
+                <h3 class="dark-blue">valery@sibikovsky.com</h3>
+                <div class="hidefield"><ul class="editlist">
+                <li><input name="" type="text" class=" grid200" value="valery@sibikovsky.com"> </li>
+                <li><input name="" type="button" class=" button green ml15 mr15" value="Save"> </li>
+                <li class="edit_cancel">Cancel</li></ul></div>
+              </div>           
+            </div></div>
+          </li>
+          <li>
+            
+            <div class="UIImageBlock_Content">
+            <div class="title-edit">
+            <h5 class="mb5 font-12">Phone</h5>
+             <h5 class="fr edit_profile"><span class="read-icon"></span>edit »</h5>
+              <div class="user-title">
+                <h3 class="dark-blue">+1 234 56789</h3>
+                <div class="hidefield"><ul class="editlist">
+                <li><input name="" type="text" class=" grid200" value="+1 234 56789"> </li>
+                <li><input name="" type="button" class=" button green ml15 mr15" value="Save"> </li>
+                <li class="edit_cancel">Cancel</li></ul></div>
+              </div>           
+            </div></div>
+          </li>
+          <li>
+            
+            <div class="UIImageBlock_Content">
+            <div class="title-edit">
+            <h5 class="mb5 font-12">Country</h5>
+             <h5 class="fr edit_profile"><span class="read-icon"></span>edit »</h5>
+              <div class="user-title">
+                <h3 class="dark-blue">United States</h3>
+                <div class="hidefield"><ul class="editlist">
+                <li class="slc-300">
+            <select name="Country">
+              <option value="Afghanistan">Afghanistan</option>
+<option value="Albania">Albania</option>
+<option value="Algeria">Algeria </option>
+<option value="Andorra">Andorra</option>
+<option value="Angola">Angola</option>
+<option value="Antigua and Barbuda">Antigua and Barbuda</option>
+<option value="Argentina">Argentina</option>
+<option value="Armenia ">Armenia</option>
+<option value="Australia">Australia</option>
+<option value="Austria">Austria</option>
+<option value="Azerbaijan">Azerbaijan</option>
+<option value="Bahamas">Bahamas </option>
+<option value="Bahrain">Bahrain</option>
+<option value="Bangladesh">Bangladesh </option>
+<option value="Barbados">Barbados</option>
+<option value="Belarus">Belarus</option>
+<option value="Belgium">Belgium</option>
+<option value="Belize">Belize</option>
+<option value="Benin">Benin</option>
+<option value="Bhutan">Bhutan</option>
+<option value="Bolivia">Bolivia </option>
+<option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+<option value="Botswana">Botswana</option>
+<option value="Brazil">Brazil</option>
+<option value="Brunei">Brunei</option>
+<option value="Bulgaria">Bulgaria</option>
+<option value="Burkina Faso">Burkina Faso</option>
+<option value="Burma/Myanmar">Burma/Myanmar </option>
+<option value="Burundi">Burundi</option>
+<option value="Cambodia">Cambodia </option>
+<option value="Cameroon">Cameroon </option>
+<option value="Canada">Canada</option>
+<option value="Cape Verde">Cape Verde </option>
+<option value="Central African Republic">Central African Republic</option>
+<option value="Chad">Chad</option>
+<option value="Chile">Chile </option>
+<option value="China">China </option>
+<option value="Colombia">Colombia </option>
+<option value="Comoros">Comoros</option>
+<option value="Congo">Congo</option>
+<option value="Congo, Democratic Republic of">Congo</option>
+<option value="Costa Rica">Costa Rica</option>
+<option value="Cote d'Ivoire/Ivory Coast">Cote d'Ivoire/Ivory Coast</option>
+<option value="Croatia">Croatia</option>
+<option value="Cuba">Cuba</option>
+<option value="Cyprus">Cyprus</option>
+<option value="Czech Republic">Czech Republic</option>
+<option value="Denmark">Denmark</option>
+<option value="Djibouti">Djibouti</option>
+<option value="Dominica">Dominica</option>
+<option value="Dominican Republic">Dominican Republic</option>
+<option value="East Timor">East Timor</option>
+<option value="Ecuador">Ecuador</option>
+<option value="Egypt">Egypt</option>
+<option value="El Salvador">El Salvador</option>
+<option value="Equatorial Guinea">Equatorial Guinea</option>
+<option value="Eritrea">Eritrea</option>
+<option value="Estonia">Estonia</option>
+<option value="Ethiopia">Ethiopia </option>
+<option value="Fiji">Fiji</option>
+<option value="Finland">Finland </option>
+<option value="France">France</option>
+<option value="Gabon">Gabon</option>
+<option value="Gambia">Gambia</option>
+<option value="Georgia">Georgia</option>
+<option value="Germany">Germany </option>
+<option value="Ghana">Ghana</option>
+<option value="Greece">Greece</option>
+<option value="Grenada">Grenada</option>
+<option value="Guatemala">Guatemala</option>
+<option value="Guinea">Guinea </option>
+<option value="Guinea-Bissau">Guinea-Bissau</option>
+<option value="Guyana">Guyana</option>
+<option value="Haiti">Haiti</option>
+<option value="Honduras ">Honduras</option>
+<option value="Hungary">Hungary</option>
+<option value="Iceland ">Iceland </option>
+<option value="India">India</option>
+<option value="Indonesia">Indonesia</option>
+<option value="Iran">Iran </option>
+<option value="Iraq ">Iraq</option>
+<option value="Ireland ">Ireland</option>
+<option value="Israel">Israel</option>
+<option value="Italy ">Italy</option>
+<option value="Jamaica">Jamaica</option>
+<option value="Japan">Japan</option>
+<option value="Jordan">Jordan</option>
+<option value="Kazakhstan">Kazakhstan</option>
+<option value="Kenya">Kenya</option>
+<option value="Kiribati">Kiribati</option>
+<option value="Korea, North">Korea, North</option>
+<option value="Korea, South">Korea, South</option>
+<option value="Kuwait">Kuwait </option>
+<option value="Kyrgyzstan">Kyrgyzstan</option>
+<option value="Laos">Laos </option>
+<option value="Latvia">Latvia </option>
+<option value="Lebanon">Lebanon </option>
+<option value="Lesotho">Lesotho </option>
+<option value="Liberia">Liberia</option>
+<option value="Libya">Libya </option>
+<option value="Liechtenstein">Liechtenstein</option>
+<option value="Lithuania">Lithuania</option>
+<option value="Luxembourg">Luxembourg</option>
+<option value="Macedonia">Macedonia</option>
+<option value="Madagascar">Madagascar</option>
+<option value="Malawi">Malawi</option>
+<option value="Malaysia">Malaysia</option>
+<option value="Maldives">Maldives</option>
+<option value="Mali">Mali</option>
+<option value="Malta">Malta </option>
+<option value="Marshall Islands">Marshall Islands</option>
+<option value="Mauritania">Mauritania</option>
+<option value="Mauritius">Mauritius </option>
+<option value="Mexico">Mexico</option>
+<option value="Micronesia">Micronesia</option>
+<option value="Moldova">Moldova </option>
+<option value="Monaco">Monaco</option>
+<option value="Mongolia">Mongolia</option>
+<option value="Montenegro">Montenegro</option>
+<option value="Morocco">Morocco </option>
+<option value="Mozambique">Mozambique</option>
+<option value="Namibia">Namibia</option>
+<option value="Nauru">Nauru </option>
+<option value="Nepal">Nepal</option>
+
+<option value="Netherlands">Netherlands</option>
+<option value="New Zealand">New Zealand</option>
+<option value="Nicaragua">Nicaragua</option>
+<option value="Niger">Niger</option>
+<option value="Nigeria">Nigeria</option>
+<option value="Norway">Norway</option>
+<option value="Oman">Oman</option>
+<option value="Pakistan">Pakistan</option>
+<option value="Palau">Palau</option>
+<option value="Panama">Panama</option>
+<option value="Papua New Guinea">Papua New Guinea</option>
+<option value="Paraguay">Paraguay</option>
+<option value="Peru">Peru</option>
+<option value="Philippines">Philippines</option>
+<option value="Poland">Poland</option>
+<option value="Portugal">Portugal</option>
+<option value="Qatar">Qatar</option>
+<option value="Romania">Romania</option>
+<option value="Russian Federation">Russian Federation</option>
+<option value="Rwanda">Rwanda </option>
+<option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+<option value="Saint Lucia">Saint Lucia</option>
+<option value="Samoa">Samoa</option>
+<option value="San Marino">San Marino</option>
+<option value="Saudi Arabia">Saudi Arabia</option>
+<option value="Senegal">Senegal</option>
+<option value="Serbia">Serbia</option>
+<option value="Seychelles">Seychelles</option>
+<option value="Sierra Leone">Sierra Leone</option>
+<option value="Singapore">Singapore</option>
+<option value="Slovakia">Slovakia </option>
+<option value="Slovenia">Slovenia</option>
+<option value="Solomon Islands">Solomon Islands</option>
+<option value="Somalia">Somalia </option>
+<option value="South Africa">South Africa </option>
+<option value="South Sudan">South Sudan</option>
+<option value="Spain">Spain </option>
+<option value="Sri Lanka">Sri Lanka</option>
+<option value="Sudan">Sudan</option>
+<option value="Suriname">Suriname</option>
+<option value="Swaziland">Swaziland</option>
+<option value="Sweden">Sweden</option>
+<option value="Switzerland">Switzerland</option>
+<option value="Syria">Syria</option>
+<option value="Tajikistan">Tajikistan </option>
+<option value="Tanzania">Tanzania </option>
+<option value="Thailand">Thailand</option>
+<option value="Togo">Togo</option>
+<option value="Tonga">Tonga</option>
+<option value="Trinidad and Tobago ">Trinidad and Tobago</option>
+<option value="Tunisia">Tunisia</option>
+<option value="Turkey">Turkey</option>
+<option value="Turkmenistan">Turkmenistan</option>
+<option value="Tuvalu">Tuvalu</option>
+<option value="Uganda">Uganda</option>
+<option value="Ukraine">Ukraine</option>
+<option value="United Arab Emirates">United Arab Emirates</option>
+<option value="United Kingdom">United Kingdom</option>
+<option  selected=""  value="United States">United States </option>
+<option value="Uruguay">Uruguay</option>
+<option value="Uzbekistan">Uzbekistan</option>
+<option value="Vanuatu ">Vanuatu</option>
+<option value="Vatican City">Vatican City</option>
+<option value="Venezuela">Venezuela</option>
+<option value="Vietnam ">Vietnam </option>
+<option value="Zambia">Zambia</option>
+<option value="Zimbabwe">Zimbabwe</option>
+            </select>
+          </li>
+                <li><input name="" type="button" class=" button green ml15 mr15" value="Save"> </li>
+                <li class="edit_cancel">Cancel</li></ul></div>
+              </div>           
+            </div></div>
+          </li>
+          <li>
+            
+            <div class="UIImageBlock_Content">
+            <div class="title-edit">
+            <h5 class="mb5 font-12">Password</h5>
+             <h5 class="fr edit_profile"><span class="read-icon"></span>edit »</h5>
+              <div class="user-title">
+                <h3 class="dark-blue">Updated About 3 months ago</h3>
+                <div class="hidefield"><ul class="editlist">
+                <li class="grid-500"><input type="password" name="Enter Old Password" class="placeHolder"> </li>
+                <li class="grid-500"><input type="password" name="Enter New Password" class="placeHolder"> </li>
+                <li><input type="password" name="Confirm New Password" class="placeHolder"> </li>
+                <li><input name="" type="button" class=" button green ml15 mr15" value="Save"> </li>
+                <li class="edit_cancel">Cancel</li></ul></div>
+              </div>           
+            </div></div>
+          </li>
+        </ul>
+        </div>
+            </div><!--End profile-->
+            <div id="membership">
+            <div class="uiheading">
+      	  <h3>Membership Settings</h3>
+        </div>
+        <div class="membership_upgrade">
+        <h3 class="dark-blue font-semibold">Why Upgrade to Premium Membership?</h3>
+        <h4 class="mt15">Upgrading to a Premium Membership gives you access to create single games, tournaments 
+& tournament series with more rounds and control scoring formats.</h4>
+<h4 class="mt15">Premium users are also able to create & manage clubs and invite any numbers of players to 
+events as desired up to a maximum of 144.</h4>
+        </div>
+        <div class="membership_gametype">
+        <ul>
+        <li class="bg p20 bborder hgt-50">
+        <h4 class="pt40">Game Types</h4>
+        </li>
+        <li class=" p20 bborder hgt-50">
+        <h2>Free User</h2>
+        <h3 class="dark-blue">FREE</h3>
+        </li>
+        <li class="bg_middle  p20 bborder hgt-50">
+        <h2>Mid Tier User</h2>
+        <h3 class="dark-blue">$4.99/mo</h3>
+        </li>
+        <li class="pt7 pr20 pl20 pb34 bborder hgt-50">
+        <h5 class="orangeDark">Recommended</h5>
+        <h2>Premium User</h2>
+        <h3 class="dark-blue">$19.99/mo</h3>
+        </li>
+        </ul>
+        <ul class="clearfix">
+        <li class="bg user-padding_text">
+        <h4 class="dark-blue"> Single Games</h4>
+        </li>
+        <li class="user-padding">
+        <h3><span class="check_user"></span></h3>
+        </li>
+        <li class="bg_middle user-padding">
+        <h3><span class="check_user"></span></h3>
+        </li>
+        <li class="user-padding">
+        <h2><span class="check_user"></span></h2>
+        </li>
+        </ul>
+        <ul class="clearfix">
+        <li class="bg user-padding_text">
+        <h4><a href="GR_Settings_Page.html#" class="setting_boxshow"> Tournament </a><div class="tooltip_setting_box mtv60 mlv255">
+          <i class="mt35 arrow_right"></i>
+          <a class="setting_boxhide"></a>
+          <div class="tooltipwrap textwrap">Up to four rounds of play with cumulative scoring. Requires single scoring format and golf course.</div>
+          </div></h4>
+        </li>
+        <li class="user-padding">
+        <h3><span class="cross_user"></span></h3>
+        </li>
+        <li class="bg_middle user-padding">
+        <h3 class="dark-blue hgt-28"><span class="check_user fl mr6"></span><span class="fl">Max of 4 rounds</span></h3>
+        </li>
+        <li class="user-padding">
+        <h3 class="dark-blue"><span class="check_user fl mr6"></span><span class="fl">up to 15 rounds</span></h3>
+        </li>
+        </ul>
+        <ul class="clearfix">
+        <li class="bg user-padding_text">
+        <h4><a href="GR_Settings_Page.html#" class="setting_boxshow"> Tournament Series </a><div class="tooltip_setting_box mtv60 mlv255">
+          <i class="mt35 arrow_right"></i>
+          <a class="setting_boxhide"></a>
+          <div class="tooltipwrap textwrap">Up to 15 rounds of play with both event winners and cumulative winner. Can be in different formats and at different courses for each round.</div>
+          </div></h4>
+        </li>
+        <li class="user-padding">
+        <h2><span class="cross_user"></span></h2>
+        </li>
+        <li class="bg_middle user-padding">
+        <h3 class="dark-blue hgt-28"><span class="cross_user"></span></h3>
+        </li>
+        <li class="user-padding">
+        <h3 class="dark-blue"><span class="check_user"></span></h3>
+        </li>
+        </ul>
+        <ul class="clearfix bborder">
+        <li class="bg user-padding_text">
+        <h4 class="pt5">Features</h4>
+        </li>
+        <li class="user-padding">
+        <h2></h2>
+        </li>
+        <li class="bg_middle user-padding">
+        <h3 class="dark-blue hgt-28"></h3>
+        </li>
+        <li class="user-padding">
+        <h3 class="dark-blue"></h3>
+        </li>
+        </ul>
+        <ul class="clearfix">
+        <li class="bg user-padding_text">
+        <h4  class="dark-blue"> Maximum Players </h4>
+        </li>
+        <li class="user-padding">
+        <h3 class="dark-blue"><span class=" font-22">8</span> per event</h3>
+        </li>
+        <li class="bg_middle user-padding">
+        <h3 class="dark-blue hgt-28"><span class=" font-22">20</span> per event</h3>
+        </li>
+        <li class="user-padding">
+        <h3 class="dark-blue"><span class=" font-22">144</span> per event</h3>
+        </li>
+        </ul>
+        <ul class="clearfix">
+        <li class="bg user-padding_text">
+        <h4 class="dark-blue">Join Clubs</h4>
+        </li>
+        <li class="user-padding">
+        <h3><span class="check_user"></span></h3>
+        </li>
+        <li class="bg_middle user-padding">
+        <h3 class="dark-blue hgt-28"><span class="check_user"></span></h3>
+        </li>
+        <li class="user-padding">
+        <h3 class="dark-blue"><span class="check_user"></span></h3>
+        </li>
+        </ul>
+        <ul class="clearfix">
+        <li class="bg user-padding_text">
+        <h4 class="dark-blue">Create Clubs</h4>
+        </li>
+        <li class="user-padding">
+        <h3><span class="cross_user"></span></h3>
+        </li>
+        <li class="bg_middle user-padding">
+        <h3 class="dark-blue hgt-28"><span class="cross_user"></span></h3>
+        </li>
+        <li class="user-padding">
+        <h3 class="dark-blue"><span class="check_user"></span></h3>
+        </li>
+        </ul>
+        <ul class="clearfix">
+        <li class="bg user-padding_text">
+        <h4 class="dark-blue">Manage Clubs</h4>
+        </li>
+        <li class="user-padding">
+        <h3><span class="cross_user"></span></h3>
+        </li>
+        <li class="bg_middle user-padding">
+        <h3 class="dark-blue hgt-28"><span class="cross_user"></span></h3>
+        </li>
+        <li class="user-padding">
+        <h3 class="dark-blue"><span class="check_user"></span></h3>
+        </li>
+        </ul>
+        <ul class="clearfix">
+        <li class="bg user-padding_text">
+        <h4 class="dark-blue">Edit Handicap System</h4>
+        </li>
+        <li class="user-padding">
+        <h3><span class="cross_user"></span></h3>
+        </li>
+        <li class="bg_middle user-padding">
+        <h3 class="dark-blue hgt-28"><span class="check_user"></span></h3>
+        </li>
+        <li class="user-padding">
+        <h3 class="dark-blue"><span class="check_user"></span></h3>
+        </li>
+        </ul>
+        <ul class="clearfix">
+        <li class="bg user-padding">
+        <h4 class="dark-blue">Advanced Scoring</h4>
+        <h5 class="dark-blue font-italic font-11 grid170">(scramble, fourball, stableford)</h5>
+        </li>
+        <li class="user-padding">
+        <h3><span class="cross_user"></span></h3>
+        </li>
+        <li class="bg_middle user-padding">
+        <h3 class="dark-blue hgt-28"><span class="check_user"></span></h3>
+        </li>
+        <li class="user-padding">
+        <h3 class="dark-blue"><span class="check_user"></span></h3>
+        </li>
+        </ul>
+        <ul class="clearfix">
+        <li class="bg user-padding hgt-35 bborder">
+        <h4 class="dark-blue">Virtual Events</h4>
+        </li>
+        <li class="user-padding hgt-35 bborder">
+        <h5 class="dark-blue font-italic font-11">single games</h5>
+        </li>
+        <li class="bg_middle user-padding hgt-35 bborder">
+        <h5 class="dark-blue font-italic font-11">single games, tournament
+tournament series</h5>
+        </li>
+        <li class="user-padding hgt-35 bborder">
+        <h5 class="dark-blue font-italic font-11">single games, tournament
+tournament series</h5>
+        </li>
+        </ul>
+        <ul class="clearfix">
+        <li class="bg user-padding_text hgt-35">
+        <h4 class="dark-blue"></h4>
+        </li>
+        <li class="user-padding hgt-35">
+        <a class="button green open_facebox" href="downgrade_user.html" title="Downgrade ">Downgrade »</a>        </li>
+        <li class="bg_middle user-padding  hgt-35">
+          <input name="input" type="button" class="save_btn" value="Current Plan">
+        </li>
+        <li class="user-padding hgt-35">
+        <a class="button green activator3" href="GR_Settings_Page.html#" >Upgrade »</a>        </li>
+        </ul>
+         </div>
+            </div><!--End Membership-->
+            <div id="e-mail">
+                <div class="uiheading">
+                  <h3>E-mail Notifications</h3>
+                </div>
+                
+                 <div class="plr20">
+                <ul class="settinglist">
+                   <li class="pb20">
+               
+                     <div class="title-edit fl">
+                        <h5 class="fl">Notifications are being sent to</h5>
+                          <div class="user-title fl">
+                              <h5 class="dark-blue ml5">valery@sibikovsky.com (email). 
+                              <a href="GR_Settings_Page.html#" class="ml10 underline email font-12 ">change</a></h5>
+                              <h5 class="display-none group-member">
+                                    <input class="ml5" name="" type="text" value="valery@sibikovsky.com" >
+                                    <input class=" button green small ml15 mr15" type="button" name="" value="Save">
+									<a class="font-13 underline cancel-address-mail cursor cancel_email">Cancel</a>
+                              </h5>
+                          </div>
+                    </div>
+                </li>
+         
+                   <li class="pb20">
+                        <div class="UIImageBlock_Content">
+                        <h4 class="dark-blue fl mtb20 mt25">System Notifications</h4>
+                            <div class="fl pb20">
+                            
+                            
+                            <ul class="ml25 drop-down-list">
+                                <li class="border-none p0"><h5 class="dark-blue">Frequency</h5></li>
+                                
+                                <li class="border-none p0 mt10">
+                                  
+                         <dl class="dropdown">
+                            <dt><a href="GR_Settings_Page.html#"><span>Instant</span></a></dt>
+                            <dd>
+                                <ul class="p0">
+                                    <li class="p0"><a href="GR_Settings_Page.html#">Never<span class="value">Never</span></a></li>
+                                    <li class="p0"><a href="GR_Settings_Page.html#">Instant<span class="value">Instant</span></a></li>
+                                </ul>
+                            </dd>
+                          </dl>
+                               </li>
+                            </ul>
+                            </div>
+                          </div>
+                        </li>
+                 
+                   <li class="border-none">
+                            <div class="UIImageBlock_Content">
+                                 <h4 class="dark-blue">Notify me when:</h4>
+                                 <div class="content">
+                                 
+                                    <div class="notification-list">
+                                      <ul>
+                                        <li class="border-none"><input name="" type="checkbox"  class="cb-element"/></li>
+                                        <li class="border-none"><h4 class="dark-blue">Accepts your Club Invite</h4></li>
+                                      </ul>
+                                      
+                                      <ul>
+                                        <li class="border-none"><input name="" type="checkbox"  class="cb-element"/></li>
+                                        <li class="border-none"><h4 class="dark-blue">Accepts your Event Invite</h4></li>
+                                      </ul>
+                                      
+                                      <ul>
+                                        <li class="border-none"><input name="" type="checkbox"  class="cb-element"/></li>
+                                        <li class="border-none"><h4 class="dark-blue">Adds you as a friend</h4></li>
+                                      </ul>
+                                      
+                                      <ul>
+                                        <li class="border-none"><input name="" type="checkbox"  class="cb-element"/></li>
+                                        <li class="border-none"><h4 class="dark-blue">Badges & Trophies are earned</h4></li>
+                                      </ul>
+                                      
+                                      <ul>
+                                        <li class="border-none"><input name="" type="checkbox"  class="cb-element"/></li>
+                                        <li class="border-none"><h4 class="dark-blue">Changes to Handicap</h4></li>
+                                      </ul>
+                                      
+                                      <ul>
+                                        <li class="border-none"><input name="" type="checkbox"  class="cb-element"/></li>
+                                        <li class="border-none"><h4 class="dark-blue">Comments on a post you replied to</h4></li>
+                                      </ul>
+                                      
+                                      <ul>
+                                        <li class="border-none"><input name="" type="checkbox"  class="cb-element"/></li>
+                                        <li class="border-none"><h4 class="dark-blue">Confirms a friend request</h4></li>
+                                      </ul>
+                                    </div><!--notification-list-->
+                                 
+                                    <div class="notification-list">
+                                        <ul>
+                                        <li class="border-none"><input name="" type="checkbox"  class="cb-element"/></li>
+                                        <li class="border-none"><h4 class="dark-blue">Confirms the final Leaderboard for an event</h4></li>
+                                      </ul>
+                                      
+                                      <ul>
+                                        <li class="border-none"><input name="" type="checkbox"  class="cb-element"/></li>
+                                        <li class="border-none"><h4 class="dark-blue">Confirms your attested score</h4></li>
+                                      </ul>
+                                      
+                                      <ul>
+                                        <li class="border-none"><input name="" type="checkbox"  class="cb-element"/></li>
+                                        <li class="border-none"><h4 class="dark-blue">Posts on your Wall</h4></li>
+                                      </ul>
+                                      
+                                      <ul>
+                                        <li class="border-none"><input name="" type="checkbox"  class="cb-element"/></li>
+                                        <li class="border-none"><h4 class="dark-blue">Sends you a Club Invite</h4></li>
+                                      </ul>
+                                      
+                                      <ul>
+                                        <li class="border-none"><input name="" type="checkbox"  class="cb-element"/></li>
+                                        <li class="border-none"><h4 class="dark-blue">Sends you a message</h4></li>
+                                      </ul>
+                                      
+                                      <ul>
+                                        <li class="border-none"><input name="" type="checkbox"  class="cb-element"/></li>
+                                        <li class="border-none"><h4 class="dark-blue">Sends you a score to attest</h4></li>
+                                      </ul>
+                                      
+                                      <ul>
+                                        <li class="border-none"><input name="" type="checkbox"  class="cb-element"/></li>
+                                        <li class="border-none"><h4 class="dark-blue">Sends you an Event Invite</h4></li>
+                                      </ul>
+                                    </div><!--notification-list-->
+                                 </div><!--content-->
+                            </div>
+                        </li>
+               </ul><!--settinglist-->
+			</div>
+            </div><!--End Email-->
+            <div id="privacy">
+            <div class="uiheading">
+      	  <h3>Privacy Settings</h3>
+        </div>
+        <div class="plr20">
+        <ul class="settinglist">
+        <li>
+            <div class="UIImageBlock_Content">
+            <div class="title-edit">
+            <h5 class="mb5 font-12">Email Address</h5>
+             <h5 class="fr edit_profile"><span class="read-icon"></span>edit »</h5>
+              <div class="user-title">
+                <h3 class="dark-blue">Friends Only </h3>
+                <div class="hidefield"><ul class="editlist">
+                <li class="dark-blue mr30"><input name="Email" type="radio"> Public</li>
+                <li class="dark-blue mr30"><input name="Email" type="radio"> Club Members & friends</li>
+                <li class="dark-blue mr30"><input name="Email" type="radio" checked='checked'> Friends Only</li>
+                <li class="dark-blue grid250"><input name="Email" type="radio"> Private </li>
+                <li><input name="" type="button" class=" button green mr15" value="Save"> </li>
+                <li class="edit_cancel">Cancel</li></ul></div>
+              </div>           
+            </div></div>
+          </li>
+          <li>
+            <div class="UIImageBlock_Content">
+            <div class="title-edit">
+            <h5 class="mb5 font-12">Phone Number</h5>
+             <h5 class="fr edit_profile"><span class="read-icon"></span>edit »</h5>
+              <div class="user-title">
+                <h3 class="dark-blue">Private </h3>
+                <div class="hidefield"><ul class="editlist">
+                <li class="dark-blue mr30"><input name="Phone" type="radio"> Public</li>
+                <li class="dark-blue mr30"><input name="Phone" type="radio"> Club Members & friends</li>
+                <li class="dark-blue mr30"><input name="Phone" type="radio"> Friends Only</li>
+                <li class="dark-blue grid250"><input name="Phone" type="radio" checked='checked'> Private </li>
+                <li><input name="" type="button" class=" button green mr15" value="Save"> </li>
+                <li class="edit_cancel">Cancel</li></ul></div>
+              </div>           
+            </div></div>
+          </li>
+          <li>
+            <div class="UIImageBlock_Content">
+            <div class="title-edit">
+            <h5 class="mb5 font-12">HCP & Scoring Averages</h5>
+             <h5 class="fr edit_profile"><span class="read-icon"></span>edit »</h5>
+              <div class="user-title">
+                <h3 class="dark-blue">Public </h3>
+                <div class="hidefield"><ul class="editlist">
+                <li class="dark-blue mr30"><input name="HCP" type="radio" checked='checked'> Public</li>
+                <li class="dark-blue mr30"><input name="HCP" type="radio"> Club Members & friends</li>
+                <li class="dark-blue mr30"><input name="HCP" type="radio"> Friends Only</li>
+                <li class="dark-blue grid250"><input name="HCP" type="radio"> Private </li>
+                <li><input name="" type="button" class=" button green mr15" value="Save"> </li>
+                <li class="edit_cancel">Cancel</li></ul></div>
+              </div>           
+            </div></div>
+          </li>
+          <li>
+            <div class="UIImageBlock_Content">
+            <div class="title-edit">
+            <h5 class="mb5 font-12">Game History</h5>
+             <h5 class="fr edit_profile"><span class="read-icon"></span>edit »</h5>
+              <div class="user-title">
+                <h3 class="dark-blue">Club Members & friends</h3>
+                <div class="hidefield"><ul class="editlist">
+                <li class="dark-blue mr30"><input name="Game" type="radio"> Public</li>
+                <li class="dark-blue mr30"><input name="Game" type="radio" checked='checked'> Club Members & friends</li>
+                <li class="dark-blue mr30"><input name="Game" type="radio"> Friends Only</li>
+                <li class="dark-blue grid250"><input name="Game" type="radio"> Private </li>
+                <li><input name="" type="button" class=" button green mr15" value="Save"> </li>
+                <li class="edit_cancel">Cancel</li></ul></div>
+              </div>           
+            </div></div>
+          </li>
+          <li>
+            <div class="UIImageBlock_Content">
+            <div class="title-edit">
+            <h5 class="mb5 font-12">Stats</h5>
+             <h5 class="fr edit_profile"><span class="read-icon"></span>edit »</h5>
+              <div class="user-title">
+                <h3 class="dark-blue">Club Members & friends </h3>
+                <div class="hidefield"><ul class="editlist">
+                <li class="dark-blue mr30"><input name="Stats" type="radio"> Public</li>
+                <li class="dark-blue mr30"><input name="Stats" type="radio" checked='checked'> Club Members & friends</li>
+                <li class="dark-blue mr30"><input name="Stats" type="radio"> Friends Only</li>
+                <li class="dark-blue grid250"><input name="Stats" type="radio"> Private </li>
+                <li><input name="" type="button" class=" button green mr15" value="Save"> </li>
+                <li class="edit_cancel">Cancel</li></ul></div>
+              </div>           
+            </div></div>
+          </li>
+          <li>
+            <div class="UIImageBlock_Content">
+            <div class="title-edit">
+            <h5 class="mb5 font-12">Achievements</h5>
+             <h5 class="fr edit_profile"><span class="read-icon"></span>edit »</h5>
+              <div class="user-title">
+                <h3 class="dark-blue">Club Members & friends </h3>
+                <div class="hidefield"><ul class="editlist">
+                <li class="dark-blue mr30"><input name="Achievements" type="radio"> Public</li>
+                <li class="dark-blue mr30"><input name="Achievements" type="radio" checked='checked'> Club Members & friends</li>
+                <li class="dark-blue mr30"><input name="Achievements" type="radio"> Friends Only</li>
+                <li class="dark-blue grid250"><input name="Achievements" type="radio"> Private </li>
+                <li><input name="" type="button" class=" button green mr15" value="Save"> </li>
+                <li class="edit_cancel">Cancel</li></ul></div>
+              </div>           
+            </div></div>
+          </li>
+          <li>
+            <div class="UIImageBlock_Content">
+            <div class="title-edit">
+            <h5 class="mb5 font-12">Events you're playing in </h5>
+             <h5 class="fr edit_profile"><span class="read-icon"></span>edit »</h5>
+              <div class="user-title">
+                <h3 class="dark-blue">Club Members & friends </h3>
+                <div class="hidefield"><ul class="editlist">
+                <li class="dark-blue mr30"><input name="Events" type="radio"> Public</li>
+                <li class="dark-blue mr30"><input name="Events" type="radio" checked='checked'> Club Members & friends</li>
+                <li class="dark-blue mr30"><input name="Events" type="radio"> Friends Only</li>
+                <li class="dark-blue grid250"><input name="Events" type="radio"> Private </li>
+                <li><input name="" type="button" class=" button green mr15" value="Save"> </li>
+                <li class="edit_cancel">Cancel</li></ul></div>
+              </div>           
+            </div></div>
+          </li>
+        </ul>
+        </div>
+            </div><!--End privacy-->
+        </div>        </td>
+    </tr>
+  </table>
+</div></div>
+<!--container end -->
+<!--Footer start -->
+<div class="footer">
+  <div class="center_holder">
+    <p class="fl">© 2013. Golf Rival. All Rights Reserved</p>
+    <div class="fr bottomlinks">
+      <p> <a href="https://golfrival.zendesk.com/forums/21339201-frequently-asked-questions-faqs" class="first" target="_blank">FAQ</a> <a href="GR_Settings_Page.html#">Contact Us</a> <a href="https://golfrival.zendesk.com/home" target="_blank">Customer Support</a> <a href="Privacy_Policy.html" target="_blank" >Privacy Policy</a> <a href="Terms_Condition.html" target="_blank">Terms & Conditions</a><a href="GR_Golf_Listings.html">Golf Course Listing</a> </p>
+      <p class="bottom-companylogo"> <span class="logo"></span> <span>Changing the Way Golfers<br>
+        Connect and Compete!</span> </p>
+    </div>
+  </div>
+</div>
+<!--Footer end -->
+
+<div id="facebox_overlay_club" class="facebox_overlayBG">sdfsd</div><!--facebox_overlay -->
+<div id="wait"><img src="../images/loader.gif" alt="Loading..."></div>
+
+</body>
+</html>

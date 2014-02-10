@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('../images/fonts/myriadpro/myriadpe-webfont.eot');
+    src: url('../images/fonts/myriadpro/myriadpe-webfont.eot?') format('embedded-opentype'),
+         url('../images/fonts/myriadpro/myriadpe-webfont.woff') format('woff'),
+         url('../images/fonts/myriadpro/myriadpe-webfont.ttf') format('truetype'),
+         url('../images/fonts/myriadpro/myriadpe-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyriadProSemiBold';
+    src: url('../images/fonts/myriadpro/myriad10-webfont.eot');
+    src: url('../images/fonts/myriadpro/myriad10-webfont.eot?') format('embedded-opentype'),
+         url('../images/fonts/myriadpro/myriad10-webfont.woff') format('woff'),
+         url('../images/fonts/myriadpro/myriad10-webfont.ttf') format('truetype'),
+         url('../images/fonts/myriadpro/myriad10-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+font-family: 'MyriadProBold';
+src: url('../images/fonts/myriadpro/myriadpro-bold-webfont.eot');
+src: url('../images/fonts/myriadpro/myriadpro-bold-webfont.eot?') format('embedded-opentype'),
+		 url('../images/fonts/myriadpro/myriadpro-bold-webfont.woff') format('woff'),
+		 url('../images/fonts/myriadpro/myriadpro-bold-webfont.ttf') format('truetype'),
+		 url('../images/fonts/myriadpro/myriadpro-bold-webfont.svg') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+/*------------------- dfg-------------------------*/
+
+@font-face {
+    font-family: 'OpenSansLightItalic';
+    src: url('../images/fonts/opensans/opensans-lightitalic-webfont.eot');
+    src: url('../images/fonts/opensans/opensans-lightitalic-webfont.eot?') format('embedded-opentype'),
+         url('../images/fonts/opensans/opensans-lightitalic-webfont.woff') format('woff'),
+         url('../images/fonts/opensans/opensans-lightitalic-webfont.ttf') format('truetype'),
+         url('../images/fonts/opensans/opensans-lightitalic-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('../images/fonts/opensans/opensans-regular-webfont.eot');
+    src: url('../images/fonts/opensans/opensans-regular-webfont.eot?') format('embedded-opentype'),
+         url('../images/fonts/opensans/opensans-regular-webfont.woff') format('woff'),
+         url('../images/fonts/opensans/opensans-regular-webfont.ttf') format('truetype'),
+         url('../images/fonts/opensans/opensans-regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSansSemiboldRegular';
+    src: url('../images/fonts/opensans/opensans-semibold-webfont.eot');
+    src: url('../images/fonts/opensans/opensans-semibold-webfont.eot?') format('embedded-opentype'),
+         url('../images/fonts/opensans/opensans-semibold-webfont.woff') format('woff'),
+         url('../images/fonts/opensans/opensans-semibold-webfont.ttf') format('truetype'),
+         url('../images/fonts/opensans/opensans-semibold-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamBold';
+    src: url('../images/fonts/GothamBold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamBlack';
+    src: url('../images/fonts/Gotham-Black.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamRnd';
+    src: url('../images/fonts/GothamRnd.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoSans500Regular';
+    src: url('../images/fonts/museoSans/museosans-webfont.eot');
+    src: url('../images/fonts/museoSans/museosans-webfont.eot?') format('embedded-opentype'),
+         url('../images/fonts/museoSans/museosans-webfont.woff') format('woff'),
+         url('../images/fonts/museoSans/museosans-webfont.ttf') format('truetype'),
+         url('../images/fonts/museoSans/museosans-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'myriad_proitalic';
+    src: url('../images/fonts/myriadpro/myriadpc-webfont.eot');
+    src: url('../images/fonts/myriadpro/myriadpc-webfont.eot?') format('embedded-opentype'),
+         url('../images/fonts/myriadpro/myriadpc-webfont.woff') format('woff'),
+         url('../images/fonts/myriadpro/myriadpc-webfont.ttf') format('truetype'),
+         url('../images/fonts/myriadpro/myriadpc-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'myriad_pro_conditalic';
+    src: url('../images/fonts/myriadpro/myriadpa-webfont.eot');
+    src: url('../images/fonts/myriadpro/myriadpa-webfont.eot?') format('embedded-opentype'),
+         url('../images/fonts/myriadpro/myriadpa-webfont.woff') format('woff'),
+         url('../images/fonts/myriadpro/myriadpa-webfont.ttf') format('truetype'),
+         url('../images/fonts/myriadpro/myriadpa-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

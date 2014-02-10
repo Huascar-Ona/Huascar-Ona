@@ -1,0 +1,178 @@
+<script type="text/javascript" >
+
+
+$(document).ready(function(){
+
+	tableScrollbar();
+	genericTitleTooltip(); // Define for small tooltip
+	showTooltip(); //Define for all contain with Tooltip
+
+
+});
+
+
+function tableScrollbar() {
+	$('.chatlist').each(function(){
+	$(".tooltip_box").css({'display':'block'});
+
+	 var height = $(this).attr('rel_height');
+
+		if($(this).height() > height.replace('px','')){ 
+			$(this).slimscroll({
+				color: '#000',
+				size: '6px',
+				height:	height
+			});										
+		}
+		genericCallFunctionOnFacebox();
+		$(".tooltip_box").css({'display':'none'})
+	});
+}
+
+function swapcol(item){
+ if(document.getElementById(item).checked){
+  document.getElementById(item+'bg').style.background='#dae6f2'
+ }
+ else{
+  document.getElementById(item+'bg').style.background='#f6f8fa'
+ }
+}
+</script>
+
+<div class="title social-network-friendlist">
+  <div class=" mrv30 fr"><span class="fr mt5"><a href="Event_Attendance.html#" class="edit_tooltip"><span class="questionIcon"></span></a><div class="tooltip_box mtv10 mlv140">
+          <i class="arrow_top ml135"></i>
+          <a class="tip_cross"></a>
+          <div class="tooltipwrap">
+<div class="cancel">Any player selected as a no show will be removed from the event. If a cancellation policy was setup for the event, no shows will be charged the specified fee.</div>
+        </div>
+          </div></span><span class="Mark_selected_btn"><a  href="no-show.html" class="open_facebox">Mark selected as no-show</a></span> </div>
+  <h3 class="font-semibold">124 Attendees</h3>
+  
+</div>
+<div class="facebox_content">
+  <form method="get" action="Event_Attendance.html#" class="Event-attendance ">
+<div class="chatlist mousescroll"  rel_height="200px">
+<div class="content">
+<div class="attendance">
+ <ul>
+    <li class="ml5"><img alt="img" src="../images/hosticon.png"></li>
+   	<li><img src="../images/26-27-img1.png" alt="img" /></li>
+    <li> Richard Thompson,(Host)</li>
+  </ul>
+  <DIV id="item1bg"> <ul>
+    <li class="ml5"><INPUT type="checkbox" id="item1" name="checkbox" onclick="swapcol('item1')"></li>
+   	<li><img src="../images/26-27-img1.png" alt="img" /></li>
+    <li>Keegan Brdadley</li>
+  </ul></DIV>
+  <DIV id="item2bg"> <ul>
+    <li class="ml5"><INPUT type="checkbox" id="item2" name="checkbox" onclick="swapcol('item2')"></li>
+   	<li><img src="../images/26-27-img1.png" alt="img" /></li>
+    <li>Seegan Bradley</li>
+  </ul></DIV>
+  <DIV id="item3bg"> <ul>
+    <li class="ml5"><INPUT type="checkbox" id="item3" name="checkbox" onclick="swapcol('item3')"></li>
+   	<li><img src="../images/26-27-img1.png" alt="img" /></li>
+    <li>Sang-Moon Bae</li>
+  </ul></DIV>
+  <DIV id="item4bg"> <ul>
+    <li class="ml5"><INPUT type="checkbox" id="item4" name="checkbox" onclick="swapcol('item4')"></li>
+   	<li><img src="../images/26-27-img1.png" alt="img" /></li>
+    <li>Thomas Bjorn</a></li>
+  </ul></DIV>
+  <DIV id="item5bg"> <ul>
+    <li class="ml5"><INPUT type="checkbox" id="item5" name="checkbox" onclick="swapcol('item5')"></li>
+   	<li><img src="../images/26-27-img1.png" alt="img" /></li>
+    <li>Aaron Baddeley</a></li>
+  </ul></DIV>
+  <DIV id="item6bg"> <ul>
+    <li class="ml5"><INPUT type="checkbox" id="item6" name="checkbox" onclick="swapcol('item6')"></li>
+   	<li><img src="../images/26-27-img1.png" alt="img" /></li>
+    <li>Keegan Brdadley</a></li>
+  </ul></DIV>
+  <DIV id="item7bg"> <ul>
+    <li class="ml5"><INPUT type="checkbox" id="item7" name="checkbox" onclick="swapcol('item7')"></li>
+   	<li><img src="../images/26-27-img1.png" alt="img" /></li>
+    <li>Seegan Bradley</a></li>
+  </ul></DIV>
+  <DIV id="item8bg"> <ul>
+    <li class="ml5"><INPUT type="checkbox" id="item8" name="checkbox" onclick="swapcol('item8')"></li>
+   	<li><img src="../images/26-27-img1.png" alt="img" /></li>
+    <li>Sang-Moon Bae</li>
+  </ul></DIV>
+  <DIV id="item9bg"> <ul>
+    <li class="ml5"><INPUT type="checkbox" id="item9" name="checkbox" onclick="swapcol('item9')"></li>
+   	<li><img src="../images/26-27-img1.png" alt="img" /></li>
+    <li>Thomas Bjorn</li>
+  </ul></DIV>
+  <DIV id="item10bg"> <ul>
+    <li class="ml5"><INPUT type="checkbox" id="item10" name="checkbox" onclick="swapcol('item10')"></li>
+   	<li><img src="../images/26-27-img1.png" alt="img" /></li>
+    <li>Aaron Baddeley</li>
+  </ul></DIV>
+  </div>
+<div class="attendance">
+  <DIV id="item11bg"> <ul>
+    <li class="ml5"><INPUT type="checkbox" id="item11" name="checkbox" onclick="swapcol('item11')"></li>
+   	<li><img src="../images/26-27-img1.png" alt="img" /></li>
+    <li>Bubba Watson</li>
+  </ul></DIV>
+  <DIV id="item12bg"> <ul>
+    <li class="ml5"><INPUT type="checkbox" id="item12" name="checkbox" onclick="swapcol('item12')"></li>
+   	<li><img src="../images/26-27-img1.png" alt="img" /></li>
+    <li>Keegan Brdadley</li>
+  </ul></DIV>
+  <DIV id="item13bg"> <ul>
+    <li class="ml5"><INPUT type="checkbox" id="item13" name="checkbox" onclick="swapcol('item13')"></li>
+   	<li><img src="../images/26-27-img1.png" alt="img" /></li>
+    <li>Seegan Bradley</li>
+  </ul></DIV>
+  <DIV id="item14bg"> <ul>
+    <li class="ml5"><INPUT type="checkbox" id="item14" name="checkbox" onclick="swapcol('item14')"></li>
+   	<li><img src="../images/26-27-img1.png" alt="img" /></li>
+    <li>Sang-Moon Bae</li>
+  </ul></DIV>
+  <DIV id="item15bg"> <ul>
+    <li class="ml5"><INPUT type="checkbox" id="item15" name="checkbox" onclick="swapcol('item15')"></li>
+   	<li><img src="../images/26-27-img1.png" alt="img" /></li>
+    <li>Thomas Bjorn</li>
+  </ul></DIV>
+  <DIV id="item16bg"> <ul>
+    <li class="ml5"><INPUT type="checkbox" id="item16" name="checkbox" onclick="swapcol('item16')"></li>
+   	<li><img src="../images/26-27-img1.png" alt="img" /></li>
+    <li>Aaron Baddeley</a></li>
+  </ul></DIV>
+  <DIV id="item17bg"> <ul>
+    <li class="ml5"><INPUT type="checkbox" id="item17" name="checkbox" onclick="swapcol('item17')"></li>
+   	<li><img src="../images/26-27-img1.png" alt="img" /></li>
+    <li>Keegan Brdadley</a></li>
+  </ul></DIV>
+  <DIV id="item18bg"> <ul>
+    <li class="ml5"><INPUT type="checkbox" id="item18" name="checkbox" onclick="swapcol('item18')"></li>
+   	<li><img src="../images/26-27-img1.png" alt="img" /></li>
+    <li>Seegan Bradley</li>
+  </ul></DIV>
+  <DIV id="item19bg"> <ul>
+    <li class="ml5"><INPUT type="checkbox" id="item19" name="checkbox" onclick="swapcol('item19')"></li>
+   	<li><img src="../images/26-27-img1.png" alt="img" /></li>
+    <li>Sang-Moon Bae</li>
+  </ul></DIV>
+  <DIV id="item20bg"> <ul>
+    <li class="ml5"><INPUT type="checkbox" id="item20" name="checkbox" onclick="swapcol('item20')"></li>
+   	<li><img src="../images/26-27-img1.png" alt="img" /></li>
+    <li>Thomas Bjorn</li>
+  </ul></DIV>
+  <DIV id="item21bg"> <ul>
+    <li class="ml5"><INPUT type="checkbox" id="item21" name="checkbox" onclick="swapcol('item21')"></li>
+   	<li><img src="../images/26-27-img1.png" alt="img" /></li>
+    <li>Aaron Baddeley</li>
+  </ul></DIV>
+  </div>
+  </div>
+  </div>
+
+   
+  </form>
+  <!-- End become_member-->
+</div>
+<!-- End facebox_content-->

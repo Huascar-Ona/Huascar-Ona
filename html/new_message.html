@@ -1,0 +1,55 @@
+<script>
+	$(function() {
+		var availableTags = [
+			"<img alt="img" src="../images/friends-list.png"> ActionScript ",
+			"AppleScript",
+			"Asp",
+			"BASIC",
+			"C",
+			"C++",
+			"Clojure",
+			"COBOL",
+			"ColdFusion",
+			"Erlang",
+			"Fortran",
+			"Groovy",
+			"Haskell",
+			"Java",
+			"JavaScript",
+			"Lisp",
+			"Perl",
+			"PHP",
+			"Python",
+			"Ruby",
+			"Scala",
+			"Scheme"
+		];
+		$( "#tags" ).autocomplete({
+			source: availableTags
+		});
+	});
+	</script>
+<div class="title">
+  <h3>New Message</h3>
+</div>
+<div class="facebox_content clearfix">
+  <form method="get" action="new_message.html#" class="MessagingComposerForm">
+  <ul class="dataRow">
+  
+  	<li><p class="fr add_site_admin"><a href="new_message.html#"> Add Site Admin</a></p></li>
+    <li class="ui-widget"><label>To :</label><div class="tokenarea">
+  <span class="uiToken">john_mark@gmail.com<a class="uiCloseButtonSmall" href="new_message.html#" ></a></span>
+  <span class="uiToken">bubba.watson@gmail.com<a class="uiCloseButtonSmall" href="new_message.html#" ></a></span>
+  </div><input id="tags" type="text" />
+        </li>
+    <li><label>Message :</label><textarea  ></textarea></li>
+  </ul>
+
+    <ul class="button-group">
+    	<li><input type="button"  class="green close_facebox" value="Cancel" /></li>
+    	<li><input name="" type="button"  class="green close_facebox mr10" value="Send" /></li>
+    </ul>
+  </form>
+  <!-- End become_member-->
+</div>
+<!-- End facebox_content-->

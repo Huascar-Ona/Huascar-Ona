@@ -1,0 +1,475 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>GolfRival - Changing the Way Golfers Connect and Compete</title>
+<link href="../stylesheets/style.css" rel="stylesheet" type="text/css" />
+<link href="../stylesheets/golf2compete.css" rel="stylesheet" type="text/css" />
+<link href="../stylesheets/home.css" rel="stylesheet" type="text/css" />
+<link href="../facebox/facebox.css" rel="stylesheet" type="text/css" />
+<link href="../stylesheets/tipsy.css" rel="stylesheet" type="text/css" />
+<link href="../stylesheets/datepicker.css" rel="stylesheet" type="text/css" />
+<link href="../stylesheets/date.css" rel="stylesheet" type="text/css" />
+<link href="../stylesheets/searchClub.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico" />
+<!--[if IE 9]><link rel="stylesheet" type="text/css" href="/stylesheets/ie9.css" /><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" type="text/css" href="/stylesheets/ie8.css" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="/stylesheets/ie7.css" /><![endif]-->
+<script src="../javascripts/jquery.min.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery-1.7.1.min.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery.ui.datepicker.js"></script>
+<script src="../javascripts/jquery.simpletip-1.3.1.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery-ui.min.js"></script>
+<script src="../javascripts/jquery.uniform.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery.watermark.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery.flexslider-min.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery.flexslider.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery.tipsy.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery.mCustomScrollbar.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery.livequery.min.js" type="text/javascript" ></script>
+<script src="../facebox/facebox.js" type="text/javascript" ></script>
+<script src="../facebox/facebox_ext.js" type="text/javascript" ></script>
+<script src="../javascripts/tooltip.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery-tabs.js" type="text/javascript" ></script>
+<script src="../javascripts/application.js" type="text/javascript" ></script>
+<script src="../javascripts/jquery.capSlide.js" type="text/javascript" ></script>
+<script type="text/javascript" src="../javascripts/animatedcollapse.js"></script>
+<script src="../javascripts/jquery.simpletip-1.3.1.js" type="text/javascript" ></script>
+<script src="../javascripts/eventSummary.js" type="text/javascript" ></script>
+<script src="../javascripts/tournament.js" type="text/javascript" ></script>
+<script src="../javascripts/user_profile.js" type="text/javascript" ></script>
+<script type="text/javascript" src="../javascripts/datepair.js"></script>
+<script src="../javascripts/expand.js" type="text/javascript" ></script>
+
+</head>
+<body class="golf tournament">
+<div class="topbar">
+  <div class="center_holder "> <a href="home.html">
+    <div class="logo"></div>
+    </a>
+    <div class="top-nav-link-main">
+      <ul class="fl">
+        <li class="small-profile-photo grid240"> <a href="User_Profile_Page.html"><img src="../images/top_profile_photo.png" alt="img" class="img fl"> <span class="fl"> Valery Sibikovsky</span></a></li>
+        <li class="golfRequests"> <a href="GR_Edit_Scores_Individual.html#"> <span class="invites-icon"></span> <span>Notifications</span> <span class="updates-counter">11</span> </a>
+          <div class="golfRequestsList">
+            <ul class="even-odd">
+              <li class="">
+                <div class="invite-accept"><a class=" button green accept">accept</a><a href="GR_Edit_Scores_Individual.html#" class="later">later</a></div>
+                <div class="UIImageBlock_Image"><img alt="img" src="../images/invite-people-img1.png"></div>
+                <div class="UIImageBlock_Content">
+                  <h5><a href="GR_Edit_Scores_Individual.html#">Paul Smith</a> invites you to a game in 
+                  <a href="GR_Edit_Scores_Individual.html#">SF Golf Tournament</a></h5>
+                </div>
+              </li>
+            <li>
+            <div class="UIImageBlock_Image"><img alt="img" src="../images/invite-people-img3.png"></div>
+            <div class="UIImageBlock_Content grid-540">
+                <h5>
+                <a href="GR_Edit_Scores_Individual.html#"> Michael Simpson</a> also commented on his 
+                <a href="notification_status.html" class="open_facebox"> status.</a> 
+             		</h5>
+            </div>
+            </li>
+              <li>
+              	<div class="invite-accept"><a class=" button green accept">accept</a><a href="GR_Edit_Scores_Individual.html#" class="later">later</a></div>
+                <div class="UIImageBlock_Image"><img alt="img" src="../images/invite-people-img1.png"></div>
+                <div class="UIImageBlock_Content">
+                  <h5><a href="GR_Edit_Scores_Individual.html#">Eric Roberts </a> wants to be
+                    your friend.</h5>
+                </div>
+              </li>
+            </ul>
+            <p class="all-invites clr"><a href="notification.html">See all Notifications</a></p>
+          </div>
+        </li>
+        <li> <a href="GR_Messages.html"> <span class="messages-icon"></span> <span>Messages</span> <span class="updates-counter">98</span> </a></li>
+      </ul>
+      <ul class="fr">
+        <li class=""> <a href="GR_Settings_Page.html"> <span class="setting-icon"></span> <span>Settings</span></a></li>
+        <li> <a href="GR_Splash_Screen.html"> <span class="logout-icon"></span> <span>Logout</span></a></li>
+      </ul>
+    </div>
+  </div>
+  <!--container_holder end -->
+</div>
+<!--topbar end -->
+<div class="mainContainer clearfix">
+  <table>
+    <tr>
+      
+      <td class="centerColContainer "> 
+       <div class="leftRow mt20">
+      	<ul class="breadcrumbs">
+          <li><a href="GRE_Summary_Event.html">Event Summary</a></li>
+          <li> Edit Scores</li>
+        </ul>
+        <div class="playerStatus">
+        
+        <h5>Total Players:</h5>
+        <h3 class="dark-blue mb20">144</h3>
+        
+          
+         </div>
+       </div>
+       
+       <!--leftRow end -->
+       
+      <div class="rightRow">
+      
+       <h3 class="titlebb">Double Eagle Tournament</h3>
+
+      
+        <ul>
+         <li>
+            <div class="UIImageBlock_Image"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"  class="mapTournament border-radius6"  src="http://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Belapur,+Navi+Mumbai,+Maharashtra&amp;aq=0&amp;oq=Belapur&amp;sll=21.125498,81.914063&amp;sspn=43.507551,107.138672&amp;ie=UTF8&amp;hq=&amp;hnear=Belapur,+Navi+Mumbai,+Thane,+Maharashtra&amp;t=m&amp;ll=19.032586,73.041573&amp;spn=0.02353,0.036736&amp;z=13&amp;iwloc=A&amp;output=embed"></iframe>
+            
+							</div>
+            <div class="UIImageBlock_Content">
+              <h5 class="font-semibold">GOLF COURSE</h5>
+              <h2 class="font-semibold dark-blue">SF Golf Club</h2>
+              <h4 class="font-semibold mt15"><span class="blueMapIcon"></span><a href="Places_You_Played_graph.html" class="underline open_facebox">Junipero Serra Blvd</a></h4>
+              <h5 class="ml15 ">San Francisco California</h5>
+
+              <h4 class="mt15 font-semibold dark-blue"><span class="phoneIcon"></span>(209) 795-2141</h4>            
+             </div>
+         </li>
+				</ul>
+     
+      </div>
+      <!--rightRow End-->
+      
+      <div class="creatorViewScore m20 mainExpand_wrapper clearfix">
+       
+     <h3 class="dark-blue title">Edit Scores: <span class="font-semibold">Round 1</span></h3>
+     
+     <div id="mainTabs-1">
+      <div class="mainSubtabs">
+        <ul class="clearfix rounds-subtabs">
+          <li><h3 class="White mr10">Round:</h3></li>
+          <li><a href="GR_Edit_Scores_Individual.html#round-1"  class="rounds_btn mt5">1</a></li>
+          <li><a href="GR_Edit_Scores_Individual.html#round-2" class="rounds_btn mt5">2</a></li>
+          <li><a href="GR_Edit_Scores_Individual.html#round-3" class="rounds_btn mt5">3</a></li>
+        </ul>
+
+
+
+ 
+       
+<table class="score_heading font-semibold">
+  <tr >
+    <td class="playersRow textIndent">Players  <span class="fontItalic dark-blue ml10">(Click on a  player name to enter scores)</span></td>
+    <td class="scoreRow">Score</td>
+    <td class="thruRow">Thru</td>
+    <td class="actionsRow">Actions</td>
+    <td class="attestedRow">Attested by</td>
+    <td class="lastModifyRow">Last Modified</td>
+  </tr>
+</table>
+
+<div id="round-1">
+    <!-- score_heading end -->
+     
+	   <div class="chatlist mousescroll"  rel_height="415px">
+      <div class="content">
+          <div class="Team_score_individual">
+          <table class="mainRow">
+            <tr>
+              <td class="playersRow">
+              <h5 class="userEmail"> Your Team (Team 1)</h5></td>
+              <td class="scoreRow">78</td>
+              <td class="thruRow"> F</td>
+              <td class="actionsRow">  </td>
+              <td class="attestedRow"> </td>
+              <td class="lastModifyRow"> </td>
+            </tr>
+          </table>
+
+          
+          
+          <!-- end 1 row -->
+          <table class="mainRow">
+            <tr>
+              <td class="playersRow">
+                <a href="GR_Edit_Scores_Creator_View_Score_Expanded.html" class="open_facebox">
+              <h5 class="userEmail"> iohntaylor@yahoo.com</h5>
+              </a></td>
+              <td class="scoreRow">78</td>
+              <td class="thruRow"> F</td>
+              <td class="actionsRow">  </td>
+              <td class="attestedRow"> <span class="tournamentEmail">E-mail</span></td>
+              <td class="lastModifyRow"><i>June 13 ‘12 (08:30 AM)</i></td>
+            </tr>
+          </table>
+
+          
+          
+          <!-- end 1 row -->
+        
+           <table class="mainRow">
+            <tr>
+              <td class="playersRow">
+                <a href="GR_Edit_Scores_Individual_View_Score.html" class="open_facebox"><span class="userPic"><img src="../images/18-17-img1.png" alt="img"/></span> <h5 class="userEmail">  Anne Robyns</h5></a></td>
+              <td class="scoreRow">78</td>
+              <td class="thruRow"> F</td>
+              <td class="actionsRow">  </td>
+              <td class="attestedRow"> <span class="tournamentEmail">E-mail</span></td>
+              <td class="lastModifyRow"><i>June 13 ‘12 (08:30 AM)</i></td>
+            </tr>
+          </table>
+          
+          
+          
+          <!-- end 2 row -->
+      
+           <table class="mainRow self">
+            <tr>
+              <td class="playersRow">
+               
+              <a href="GR_Edit_Scores_Individual_Enter_Scores.html" class="open_facebox" >
+              <span class="userPic"><img src="../images/18-17-img1.png" alt="img"/></span> 
+              <h5 class="userEmail "> (You) Valery Sibikovsky </h5>
+              </a></td>
+              <td class="scoreRow">78</td>
+              <td class="thruRow">F</td>
+              <td class="actionsRow"> <a class="button green smallBtn open_facebox" href="GR_Edit_Scores_Creato_Attest_Scorer.html">Attest Score &raquo; </a> </td>
+              <td class="attestedRow"> </td>
+              <td class="lastModifyRow"><i>June 13 ‘12 (08:30 AM)</i></td>
+            </tr>
+          </table>
+          
+          
+          
+          <!-- end 3 row -->
+          
+          <table class="mainRow">
+            <tr>
+              <td class="playersRow">
+               <a href="GR_Edit_Scores_Individual.html#"><span class="userPic"><img src="../images/18-17-img1.png" alt="img"/></span> <h5 class="userEmail"> Valentine Beale</h5></a></td>
+              <td class="scoreRow">78</td>
+              <td class="thruRow"> F</td>
+              <td class="actionsRow">  </td>
+              <td class="attestedRow"> <span class="tournamentUser"><a href="User_Profile_Page.html">Valery Sibikovsky </a></span></td>
+              <td class="lastModifyRow"><i>June 13 ‘12 (08:30 AM)</i></td>
+            </tr>
+          </table>
+          <!-- end 4 row -->
+          
+          </div>
+        </div>
+      <!-- content end -->
+      </div>
+		<!-- Chatlist end -->
+</div>    
+<!--Round1-->
+<div id="round-2">
+    <!-- score_heading end -->
+     
+	  <div class="chatlist mousescroll"  rel_height="415px">
+      <div class="content">
+          <div class="Team_score_individual">
+          <table class="mainRow">
+            <tr>
+              <td class="playersRow">
+              <h5 class="userEmail"> Your Team (Team 1)</h5></td>
+              <td class="scoreRow">78</td>
+              <td class="thruRow"> F</td>
+              <td class="actionsRow">  </td>
+              <td class="attestedRow"> </td>
+              <td class="lastModifyRow"> </td>
+            </tr>
+          </table>
+
+          
+          
+          <!-- end 1 row -->
+          <table class="mainRow">
+            <tr>
+              <td class="playersRow">
+                <a href="GR_Edit_Scores_Creator_View_Score_Expanded.html" class="open_facebox">
+              <h5 class="userEmail"> iohntaylor@yahoo.com</h5>
+              </a></td>
+              <td class="scoreRow">78</td>
+              <td class="thruRow"> F</td>
+              <td class="actionsRow">  </td>
+              <td class="attestedRow"> <span class="tournamentEmail">E-mail</span></td>
+              <td class="lastModifyRow"><i>June 13 ‘12 (08:30 AM)</i></td>
+            </tr>
+          </table>
+
+          
+          
+          <!-- end 1 row -->
+        
+           <table class="mainRow">
+            <tr>
+              <td class="playersRow">
+                <a href="GR_Edit_Scores_Individual_View_Score.html" class="open_facebox"><span class="userPic"><img src="../images/18-17-img1.png" alt="img"/></span> <h5 class="userEmail">  Anne Robyns</h5></a></td>
+              <td class="scoreRow">78</td>
+              <td class="thruRow"> F</td>
+              <td class="actionsRow">  </td>
+              <td class="attestedRow"> <span class="tournamentEmail">E-mail</span></td>
+              <td class="lastModifyRow"><i>June 13 ‘12 (08:30 AM)</i></td>
+            </tr>
+          </table>
+          
+          
+          
+          <!-- end 2 row -->
+      
+           <table class="mainRow self">
+            <tr>
+              <td class="playersRow">
+               
+              <a href="GR_Edit_Scores_Individual_Enter_Scores.html" class="open_facebox" >
+              <span class="userPic"><img src="../images/18-17-img1.png" alt="img"/></span> 
+              <h5 class="userEmail "> (You) Valery Sibikovsky </h5>
+              </a></td>
+              <td class="scoreRow">78</td>
+              <td class="thruRow">F</td>
+              <td class="actionsRow"> <a class="button green smallBtn open_facebox" href="GR_Edit_Scores_Creato_Attest_Scorer.html">Attest Score &raquo; </a> </td>
+              <td class="attestedRow"> </td>
+              <td class="lastModifyRow"><i>June 13 ‘12 (08:30 AM)</i></td>
+            </tr>
+          </table>
+          
+          
+          
+          <!-- end 3 row -->
+          
+          <table class="mainRow">
+            <tr>
+              <td class="playersRow">
+               <a href="GR_Edit_Scores_Individual.html#"><span class="userPic"><img src="../images/18-17-img1.png" alt="img"/></span> <h5 class="userEmail"> Valentine Beale</h5></a></td>
+              <td class="scoreRow">78</td>
+              <td class="thruRow"> F</td>
+              <td class="actionsRow">  </td>
+              <td class="attestedRow"> <span class="tournamentUser"><a href="User_Profile_Page.html">Valery Sibikovsky </a></span></td>
+              <td class="lastModifyRow"><i>June 13 ‘12 (08:30 AM)</i></td>
+            </tr>
+          </table>
+          <!-- end 4 row -->
+          
+          </div>
+        </div>
+      <!-- content end -->
+      </div>
+		<!-- Chatlist end -->
+</div>    
+<!--Round2-->
+<div id="round-3">
+    <!-- score_heading end -->
+     <div class="chatlist mousescroll"  rel_height="415px">
+      <div class="content">
+          <div class="Team_score_individual">
+          <table class="mainRow">
+            <tr>
+              <td class="playersRow">
+              <h5 class="userEmail"> Your Team (Team 1)</h5></td>
+              <td class="scoreRow">78</td>
+              <td class="thruRow"> F</td>
+              <td class="actionsRow">  </td>
+              <td class="attestedRow"> </td>
+              <td class="lastModifyRow"> </td>
+            </tr>
+          </table>
+
+          
+          
+          <!-- end 1 row -->
+          <table class="mainRow">
+            <tr>
+              <td class="playersRow">
+                <a href="GR_Edit_Scores_Creator_View_Score_Expanded.html" class="open_facebox">
+              <h5 class="userEmail"> iohntaylor@yahoo.com</h5>
+              </a></td>
+              <td class="scoreRow">78</td>
+              <td class="thruRow"> F</td>
+              <td class="actionsRow">  </td>
+              <td class="attestedRow"> <span class="tournamentEmail">E-mail</span></td>
+              <td class="lastModifyRow"><i>June 13 ‘12 (08:30 AM)</i></td>
+            </tr>
+          </table>
+
+          
+          
+          <!-- end 1 row -->
+        
+           <table class="mainRow">
+            <tr>
+              <td class="playersRow">
+                <a href="GR_Edit_Scores_Individual_View_Score.html" class="open_facebox"><span class="userPic"><img src="../images/18-17-img1.png" alt="img"/></span> <h5 class="userEmail">  Anne Robyns</h5></a></td>
+              <td class="scoreRow">78</td>
+              <td class="thruRow"> F</td>
+              <td class="actionsRow">  </td>
+              <td class="attestedRow"> <span class="tournamentEmail">E-mail</span></td>
+              <td class="lastModifyRow"><i>June 13 ‘12 (08:30 AM)</i></td>
+            </tr>
+          </table>
+          
+          
+          
+          <!-- end 2 row -->
+      
+           <table class="mainRow self">
+            <tr>
+              <td class="playersRow">
+              <a href="GR_Edit_Scores_Individual_Enter_Scores.html" class="open_facebox" >
+              <span class="userPic"><img src="../images/18-17-img1.png" alt="img"/></span> 
+              <h5 class="userEmail "> (You) Valery Sibikovsky </h5>
+              </a></td>
+              <td class="scoreRow">78</td>
+              <td class="thruRow">F</td>
+              <td class="actionsRow"> <a class="button green smallBtn open_facebox" href="GR_Edit_Scores_Creato_Attest_Scorer.html">Attest Score &raquo; </a> </td>
+              <td class="attestedRow"> </td>
+              <td class="lastModifyRow"><i>June 13 ‘12 (08:30 AM)</i></td>
+            </tr>
+          </table>
+          
+          
+          
+          <!-- end 3 row -->
+          
+          <table class="mainRow">
+            <tr>
+              <td class="playersRow">
+               <a href="GR_Edit_Scores_Individual.html#"><span class="userPic"><img src="../images/18-17-img1.png" alt="img"/></span> <h5 class="userEmail"> Valentine Beale</h5></a></td>
+              <td class="scoreRow">78</td>
+              <td class="thruRow"> F</td>
+              <td class="actionsRow">  </td>
+              <td class="attestedRow"> <span class="tournamentUser"><a href="User_Profile_Page.html">Valery Sibikovsky </a></span></td>
+              <td class="lastModifyRow"><i>June 13 ‘12 (08:30 AM)</i></td>
+            </tr>
+          </table>
+          <!-- end 4 row -->
+          
+          </div>
+        </div>
+      <!-- content end -->
+      </div>
+		<!-- Chatlist end -->
+</div>    
+<!--Round3-->
+       </div>
+     </div>
+    <!--end mainTabs-1-->
+    </div>
+    <!--creatorViewScore-->
+    </td>
+    </tr>
+  </table>
+</div>
+<!--container end -->
+<!--Footer start -->
+<div class="footer">
+  <div class="center_holder">
+    <p class="fl">© 2013. Golf Rival. All Rights Reserved</p>
+    <div class="fr bottomlinks">
+      <p> <a href="https://golfrival.zendesk.com/forums/21339201-frequently-asked-questions-faqs" class="first" target="_blank">FAQ</a> <a href="GR_Edit_Scores_Individual.html#">Contact Us</a> <a href="https://golfrival.zendesk.com/home" target="_blank">Customer Support</a> <a href="Privacy_Policy.html" target="_blank" >Privacy Policy</a> <a href="Terms_Condition.html" target="_blank">Terms & Conditions</a><a href="GR_Golf_Listings.html">Golf Course Listing</a> </p>
+      <p class="bottom-companylogo"> <span class="logo"></span> <span>Changing the Way Golfers<br>
+        Connect and Compete!</span> </p>
+    </div>
+  </div>
+</div>
+<!--Footer end -->
+</body>
+</html>

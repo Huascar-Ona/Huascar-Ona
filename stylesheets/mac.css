@@ -1,0 +1,7 @@
+
+
+/* saf3+, chrome1+ */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ .mac_os  div.selector select{  }
+}
+ 
